@@ -136,6 +136,8 @@ public class TranslatarActivity extends AppCompatActivity {
             mCamera = null;
         }
     }
+
+
 }
 
 
