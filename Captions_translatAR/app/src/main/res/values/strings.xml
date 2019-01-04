@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Captions_translatAR</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="button_camera">Go!</string>
+    <string name="radio_off">OFF</string>
+    <string name="radio_on">ON</string>
+    <string name="radio_text">American Sign Language:</string>
+    <string-array name="LanguageIN">
+        <item>English</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Filipino</item>
+        <item>Portugese</item>
+        <item>Cantonese</item>
+    </string-array>
+    <string-array name="LanguageOUT">
+        <item>English</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Filipino</item>
+        <item>Portugese</item>
+        <item>Cantonese</item>
+    </string-array>
+    <string name="TranslateFrom">Translate From:</string>
+    <string name="TranslateTo">Translate To:</string>
+    <string name="title_activity_translatar">TranslatarActivity</string>
+</resources>
