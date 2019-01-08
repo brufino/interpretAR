@@ -1,22 +1,16 @@
 package com.microsoft.cognitiveservices.speech.samples.captions_translatar;
 
-import android.app.Activity;
 import android.content.Context;
-import android.content.pm.PackageManager;
-import android.hardware.Camera;
-import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.util.Log;
-import android.view.SurfaceHolder;
-import android.view.SurfaceView;
-import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
-import android.widget.Button;
-import android.widget.FrameLayout;
-import android.widget.TextView;
 import android.text.TextUtils;
+import android.widget.Button;
+import android.widget.TextView;
+import android.util.Log;
+import android.view.View;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 
 import com.microsoft.cognitiveservices.speech.ResultReason;
 import com.microsoft.cognitiveservices.speech.SpeechConfig;
@@ -24,61 +18,28 @@ import com.microsoft.cognitiveservices.speech.SpeechRecognitionResult;
 import com.microsoft.cognitiveservices.speech.SpeechRecognizer;
 import com.microsoft.cognitiveservices.speech.audio.AudioConfig;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
+public class OverlayActivity extends AppCompatActivity{
 
-import static android.Manifest.permission.INTERNET;
-import static android.Manifest.permission.RECORD_AUDIO;
-
-
-
-
-
-
-public class TranslatarActivity extends AppCompatActivity {
-
-    //
-    // Configuration for speech recognition
-    //
-
-    private static final String TAG = "TranslatarActivity";
+    private static final String TAG = "OverlayActivity";
+    public static final String DEBUG_TAG = "OverlayActivity Log";
 
     // Replace below with your own subscription key
     private static String SpeechSubscriptionKey = "64d8f363b6eb4014aaf538c18d597b55";
     // Replace below with your own service region (e.g., "westus").
     private static String SpeechRegion = "westus";
 
+    //
+    // Configuration for intent recognition TODO: INTENT RECOGNITION FOR ASL
+    //
 
+    // Replace below with your own Language Understanding subscription key
+    // The intent recognition service calls the required key 'endpoint key'.
+    private static final String LanguageUnderstandingSubscriptionKey = "YourLanguageUnderstandingSubscriptionKey";
+    // Replace below with the deployment region of your Language Understanding application
+    private static final String LanguageUnderstandingServiceRegion = "YourLanguageUnderstandingServiceRegion";
+    // Replace below with the application ID of your Language Understanding application
+    private static final String LanguageUnderstandingAppId = "YourLanguageUnderstandingAppId";
 
-    // checks to see if device has a camera
-    private boolean checkCameraHardware(Context context) {
-        if (context.getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA)) {
-            // this device has a camera
-            return true;
-        } else {
-            // no camera on this device
-            return false;
-        }
-    }
-
-    //** A safe way to get an instance of the Camera object. *//*
-    public static Camera getCameraInstance() {
-        Camera c = null;
-        try {
-            c = Camera.open(); // attempt to get a Camera instance
-        } catch (Exception e) {
-            // Camera is not available (in use or does not exist)
-        }
-        return c; // returns null if camera is unavailable
-    }
-
-
-
-    private Camera mCamera;
-    private CameraPreview mPreview;
 
     //
     //Setting up microphone stream
@@ -102,44 +63,13 @@ public class TranslatarActivity extends AppCompatActivity {
     //    private Button recognizeIntermediateButton;
     private Button recognizeContinuousButton;
     //    private Button recognizeIntentButton;
-    //
-    // Configuration for intent recognition TODO: INTENT RECOGNITION FOR ASL
-    //
-
-    // Replace below with your own Language Understanding subscription key
-    // The intent recognition service calls the required key 'endpoint key'.
-    private static final String LanguageUnderstandingSubscriptionKey = "YourLanguageUnderstandingSubscriptionKey";
-    // Replace below with the deployment region of your Language Understanding application
-    private static final String LanguageUnderstandingServiceRegion = "YourLanguageUnderstandingServiceRegion";
-    // Replace below with the application ID of your Language Understanding application
-    private static final String LanguageUnderstandingAppId = "YourLanguageUnderstandingAppId";
 
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-        //Remove title bar
-        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
-
-        //Remove notification bar
-        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-
-        //set content view AFTER ABOVE sequence (to avoid crash)
-        this.setContentView(R.layout.activity_translatar);
-
-        FrameLayout arViewPane = (FrameLayout) findViewById(R.id.surface_camera);
-
-        CameraPreview arDisplay = new CameraPreview(getApplicationContext(), this);
-        arViewPane.addView(arDisplay);
+    public OverlayActivity(Context context){
+        super();
 
 
-        //translation part
-        ///
-        //
-        //
-
-        recognizedTextView = findViewById(R.id.recognizedText);
+/*        recognizedTextView = findViewById(R.id.recognizedText);
 
         //recognizeButton = findViewById(R.id.buttonRecognize);
         //recognizeIntermediateButton = findViewById(R.id.buttonRecognizeIntermediate);
@@ -160,7 +90,7 @@ public class TranslatarActivity extends AppCompatActivity {
             recognizedTextView.setText("Could not initialize: " + ex.toString());
         }
 
-        // create config
+// create config
         final SpeechConfig speechConfig;
         try {
             speechConfig = SpeechConfig.fromSubscription(SpeechSubscriptionKey, SpeechRegion);
@@ -169,6 +99,20 @@ public class TranslatarActivity extends AppCompatActivity {
             displayException(ex);
             return;
         }
+
+
+        // Create an instance of Camera
+        mCamera = getCameraInstance();
+
+        // Create our Preview view and set it as the content of our activity.
+        mPreview = new CameraPreview(this, mCamera);
+        FrameLayout preview = (FrameLayout) findViewById(R.id.camera_preview);
+        preview.addView(mPreview);
+        // Camera may be in use by another activity or the system or not available at all
+
+
+
+
 
         ///////////////////////////////////////////////////
         // recognize continuously
@@ -241,19 +185,15 @@ public class TranslatarActivity extends AppCompatActivity {
                     displayException(ex);
                 }
             }
-        });
+        });*/
 
-/*        OverlayActivity arContent = new OverlayActivity(getApplicationContext());
-        arViewPane.addView(arContent);*/
+//onSpeechButtonClicked(mPreview);
+
 
     }
 
-/*
-    // Show the camera view on the activity
-    private void initCameraPreview() {
-        CameraPreview cameraPreview = (CameraPreview) findViewById(R.id.camera_preview);
-    }
-*/
+
+
 
 
     private void displayException(Exception ex) {
@@ -269,7 +209,7 @@ public class TranslatarActivity extends AppCompatActivity {
     }
 
     private void AppendTextLine(final String s, final Boolean erase) {
-        TranslatarActivity.this.runOnUiThread(() -> {
+        OverlayActivity.this.runOnUiThread(() -> {
             if (erase) {
                 recognizedTextView.setText(s);
             } else {
@@ -280,7 +220,7 @@ public class TranslatarActivity extends AppCompatActivity {
     }
 
     private void disableButtons() {
-        TranslatarActivity.this.runOnUiThread(() -> {
+        OverlayActivity.this.runOnUiThread(() -> {
             //recognizeButton.setEnabled(false);
             //recognizeIntermediateButton.setEnabled(false);
             recognizeContinuousButton.setEnabled(false);
@@ -289,7 +229,7 @@ public class TranslatarActivity extends AppCompatActivity {
     }
 
     private void enableButtons() {
-        TranslatarActivity.this.runOnUiThread(() -> {
+        OverlayActivity.this.runOnUiThread(() -> {
             //recognizeButton.setEnabled(true);
             //recognizeIntermediateButton.setEnabled(true);
             recognizeContinuousButton.setEnabled(true);
@@ -297,7 +237,7 @@ public class TranslatarActivity extends AppCompatActivity {
         });
     }
 
-    private <T> void setOnTaskCompletedListener(Future<T> task, OnTaskCompletedListener<T> listener) {
+    private <T> void setOnTaskCompletedListener(Future<T> task, OverlayActivity.OnTaskCompletedListener<T> listener) {
         s_executorService.submit(() -> {
             T result = task.get();
             listener.onCompleted(result);
@@ -314,19 +254,9 @@ public class TranslatarActivity extends AppCompatActivity {
         s_executorService = Executors.newCachedThreadPool();
     }
 
-    // ALWAYS remember to release the camera when you are finished
-    @Override
-    protected void onPause() {
-        super.onPause();
-        releaseCamera();
-    }
 
-    private void releaseCamera() {
-        if (mCamera != null) {
-            mCamera.release();
-            mCamera = null;
-        }
-    }
+
 
 
 }
+

@@ -30,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Note: we need to request the permissions
-        int requestCode = 5; // unique code for the permission request
-        ActivityCompat.requestPermissions(MainActivity.this, new String[]{RECORD_AUDIO, INTERNET}, requestCode);
+        //int requestCode = 5; // unique code for the permission request
+        //ActivityCompat.requestPermissions(MainActivity.this, new String[]{RECORD_AUDIO, INTERNET}, requestCode);
 
 
         //changing project title
@@ -65,6 +65,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+
+    // **************** TO DO ************************
     public void onRadioButtonClicked(View view) {
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
