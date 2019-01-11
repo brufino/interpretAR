@@ -7,27 +7,35 @@
     <FrameLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:id="@+id/surface_camera" />
+        android:id="@+id/surface_camera"/>
 
 
     <Button
         android:id="@+id/buttonRecognizeContinuous"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right|center_vertical"
+        android:layout_gravity="bottom|center_horizontal"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/buttonshape"
         android:text="Recognize continuously"
         android:textAllCaps="false" />
 
     <TextView
         android:id="@+id/recognizedText"
-        android:layout_width="263dp"
+        android:textColor="#FFFFFF"
+        android:layout_width="400dp"
         android:layout_height="157dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="27dp"
-        android:layout_marginStart="32dp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="16dp"
         android:scrollbarAlwaysDrawHorizontalTrack="false"
         android:scrollbars="vertical"
         android:textAppearance="@style/TextAppearance.AppCompat.Title"
         />
+
+    <!--    android:layout_marginBottom="8dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginStart="32dp"-->
 
 </FrameLayout>

@@ -46,6 +46,10 @@ public class TranslatarActivity extends AppCompatActivity {
 
     private static final String TAG = "TranslatarActivity";
 
+    String stringResult = "hello";
+    OverlayActivity arContent;
+    FrameLayout arViewPane;
+
     // Replace below with your own subscription key
     private static String SpeechSubscriptionKey = "64d8f363b6eb4014aaf538c18d597b55";
     // Replace below with your own service region (e.g., "westus").
@@ -53,32 +57,7 @@ public class TranslatarActivity extends AppCompatActivity {
 
 
 
-    // checks to see if device has a camera
-    private boolean checkCameraHardware(Context context) {
-        if (context.getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA)) {
-            // this device has a camera
-            return true;
-        } else {
-            // no camera on this device
-            return false;
-        }
-    }
-
-    //** A safe way to get an instance of the Camera object. *//*
-    public static Camera getCameraInstance() {
-        Camera c = null;
-        try {
-            c = Camera.open(); // attempt to get a Camera instance
-        } catch (Exception e) {
-            // Camera is not available (in use or does not exist)
-        }
-        return c; // returns null if camera is unavailable
-    }
-
-
-
     private Camera mCamera;
-    private CameraPreview mPreview;
 
     //
     //Setting up microphone stream
@@ -117,6 +96,7 @@ public class TranslatarActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //creating camera preview on screen
         super.onCreate(savedInstanceState);
 
         //Remove title bar
@@ -128,7 +108,7 @@ public class TranslatarActivity extends AppCompatActivity {
         //set content view AFTER ABOVE sequence (to avoid crash)
         this.setContentView(R.layout.activity_translatar);
 
-        FrameLayout arViewPane = (FrameLayout) findViewById(R.id.surface_camera);
+        arViewPane = (FrameLayout) findViewById(R.id.surface_camera);
 
         CameraPreview arDisplay = new CameraPreview(getApplicationContext(), this);
         arViewPane.addView(arDisplay);
@@ -181,6 +161,7 @@ public class TranslatarActivity extends AppCompatActivity {
             private String buttonText = "";
             private ArrayList<String> content = new ArrayList<>();
 
+
             @Override
             public void onClick(final View view) {
                 final Button clickedButton = (Button) view;
@@ -188,6 +169,7 @@ public class TranslatarActivity extends AppCompatActivity {
                 if (continuousListeningStarted) {
                     if (reco != null) {
                         final Future<Void> task = reco.stopContinuousRecognitionAsync();
+
                         setOnTaskCompletedListener(task, result -> {
                             Log.i(logTag, "Continuous recognition stopped.");
                             TranslatarActivity.this.runOnUiThread(() -> {
@@ -199,7 +181,7 @@ public class TranslatarActivity extends AppCompatActivity {
                     } else {
                         continuousListeningStarted = false;
                     }
-
+                    clearTextBox();
                     return;
                 }
 
@@ -211,12 +193,12 @@ public class TranslatarActivity extends AppCompatActivity {
                     // audioInput = AudioConfig.fromDefaultMicrophoneInput();
                     audioInput = AudioConfig.fromStreamInput(createMicrophoneStream());
                     reco = new SpeechRecognizer(speechConfig, audioInput);
-
                     reco.recognizing.addEventListener((o, speechRecognitionResultEventArgs) -> {
                         final String s = speechRecognitionResultEventArgs.getResult().getText();
                         Log.i(logTag, "Intermediate result received: " + s);
                         content.add(s);
-                        setRecognizedText(TextUtils.join(" ", content));
+                        setRecognizedText(s);
+                        //setRecognizedText(TextUtils.join(" ", content));
                         content.remove(content.size() - 1);
                     });
 
@@ -224,10 +206,12 @@ public class TranslatarActivity extends AppCompatActivity {
                         final String s = speechRecognitionResultEventArgs.getResult().getText();
                         Log.i(logTag, "Final result received: " + s);
                         content.add(s);
-                        setRecognizedText(TextUtils.join(" ", content));
+                        //setRecognizedText(TextUtils.join(" ", content));
+                        content.remove(content.size() - 1);
                     });
 
                     final Future<Void> task = reco.startContinuousRecognitionAsync();
+
                     setOnTaskCompletedListener(task, result -> {
                         continuousListeningStarted = true;
                         TranslatarActivity.this.runOnUiThread(() -> {
@@ -241,19 +225,13 @@ public class TranslatarActivity extends AppCompatActivity {
                     displayException(ex);
                 }
             }
-        });
+        }
+        );
 
-/*        OverlayActivity arContent = new OverlayActivity(getApplicationContext());
-        arViewPane.addView(arContent);*/
+
 
     }
 
-/*
-    // Show the camera view on the activity
-    private void initCameraPreview() {
-        CameraPreview cameraPreview = (CameraPreview) findViewById(R.id.camera_preview);
-    }
-*/
 
 
     private void displayException(Exception ex) {
@@ -272,9 +250,15 @@ public class TranslatarActivity extends AppCompatActivity {
         TranslatarActivity.this.runOnUiThread(() -> {
             if (erase) {
                 recognizedTextView.setText(s);
+                stringResult=recognizedTextView.getText().toString();
+                arContent = new OverlayActivity(getApplicationContext(),stringResult); //TEST
+                arViewPane.addView(arContent); // TEST
             } else {
                 String txt = recognizedTextView.getText().toString();
                 recognizedTextView.setText(txt + System.lineSeparator() + s);
+                stringResult=recognizedTextView.getText().toString();
+                arContent = new OverlayActivity(getApplicationContext(),stringResult); //TEST
+                arViewPane.addView(arContent); // TEST
             }
         });
     }
