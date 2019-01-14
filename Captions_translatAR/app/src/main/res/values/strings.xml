@@ -6,6 +6,7 @@
     <string name="radio_off">OFF</string>
     <string name="radio_on">ON</string>
     <string name="radio_text">American Sign Language:</string>
+    <string name="radio_textCC">CC:</string>
     <string name="speechButtonText">Recognize Speech</string>
     <string-array name="LanguageIN">
         <item>English</item>

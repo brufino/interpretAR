@@ -77,7 +77,8 @@
             android:onClick="onRadioButtonClicked"
             android:padding="15dp"
             android:text="@string/radio_on"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:checked="true"/>
 
         <RadioButton
             android:id="@+id/radio_ninjas"
@@ -86,6 +87,46 @@
             android:onClick="onRadioButtonClicked"
             android:padding="15dp"
             android:text="@string/radio_off"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radioGroupCC"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:checkedButton="@id/radio_piratesCC"
+        android:orientation="horizontal"
+        android:text="Closed Captions"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup">
+
+        <TextView
+            android:id="@+id/headerCC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/radio_textCC"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radio_piratesCC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClickedCC"
+            android:padding="15dp"
+            android:text="ON"
+            android:textStyle="bold"
+            android:checked="true"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_ninjasCC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClickedCC"
+            android:padding="15dp"
+            android:text="OFF"
             android:textStyle="bold" />
     </RadioGroup>
 

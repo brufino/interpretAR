@@ -23,15 +23,17 @@ import static android.Manifest.permission.*;
 public class MainActivity extends AppCompatActivity {
 
 
+    //INITIALIZING RADIO BUTTONS
+    String stringResultASL = "ON";
+    String stringResultCC = "ON";
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        // Note: we need to request the permissions
-        //int requestCode = 5; // unique code for the permission request
-        //ActivityCompat.requestPermissions(MainActivity.this, new String[]{RECORD_AUDIO, INTERNET}, requestCode);
 
 
         //changing project title
@@ -61,12 +63,12 @@ public class MainActivity extends AppCompatActivity {
     public void accessCamera(View view) {
         //do something in response to go
         Intent intent = new Intent(this, TranslatarActivity.class);
-        //intent.putExtra(ASL);
+        intent.putExtra("radioChosenASL", stringResultASL); // pass "stringResultASL" to the next Activity
+        intent.putExtra("radioChosenCC", stringResultCC); // pass "stringResultCC" to the next Activity
         startActivity(intent);
     }
 
 
-    // **************** TO DO ************************
     public void onRadioButtonClicked(View view) {
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
@@ -75,11 +77,28 @@ public class MainActivity extends AppCompatActivity {
         switch(view.getId()) {
             case R.id.radio_pirates:
                 if (checked)
-                    //ASL ="OFF";
+                    stringResultASL ="ON";
                     break;
             case R.id.radio_ninjas:
                 if (checked)
-                    //ASL="ON";
+                    stringResultASL ="OFF";
+                    break;
+        }
+    }
+
+    public void onRadioButtonClickedCC(View view) {
+        // Is the button now checked?
+        boolean checked = ((RadioButton) view).isChecked();
+
+        // Check which radio button was clicked
+        switch(view.getId()) {
+            case R.id.radio_piratesCC:
+                if (checked)
+                    stringResultCC ="ON";
+                    break;
+            case R.id.radio_ninjasCC:
+                if (checked)
+                    stringResultCC ="OFF";
                     break;
         }
     }

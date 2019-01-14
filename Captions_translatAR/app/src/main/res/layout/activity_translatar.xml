@@ -9,19 +9,6 @@
         android:layout_height="fill_parent"
         android:id="@+id/surface_camera"/>
 
-
-    <Button
-        android:id="@+id/buttonRecognizeContinuous"
-        android:layout_gravity="bottom|center_horizontal"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp"
-        android:layout_width="400dp"
-        android:layout_height="30dp"
-        android:layout_marginBottom="16dp"
-        android:background="@drawable/buttonshape"
-        android:text="Recognize continuously"
-        android:textAllCaps="false" />
-
     <TextView
         android:id="@+id/recognizedText"
         android:textColor="#FFFFFF"
