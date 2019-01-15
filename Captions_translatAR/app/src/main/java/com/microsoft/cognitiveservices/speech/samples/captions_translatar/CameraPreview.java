@@ -59,7 +59,7 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
     public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
         if (DEBUG) Log.i(TAG, "surfaceChanged(SurfaceHolder, int, int, int");
 
-/*
+        //was commented out before
         if (mHolder.getSurface() == null) {
             // Preview surface does not exist.
             return;
@@ -71,7 +71,7 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
         } catch (Exception e) {
             // Tried to stop a non-existent preview, so ignore.
         }
-*/
+
         Camera.Parameters params = mCamera.getParameters();
 
         // Find an appropriate preview size that fits the surface
