@@ -28,14 +28,14 @@ We tested the project with Brandon's Samsung S7 Edge with Android version 8.0.0.
 * Version 3.1 of [Android Studio](https://developer.android.com/studio/).
 * An ARM-based Android device (API 23: Android 6.0 Marshmallow or higher) [enabled for development](https://developer.android.com/studio/debug/dev-options) with a working microphone.
 
-## Build the sample
+## Build the project
 
 * **By building this project you will download the Microsoft Cognitive Services Speech SDK. By downloading you acknowledge its license, see [Speech SDK license agreement](https://aka.ms/csspeech/license201809).**
 * [Download the sample code to your development PC.]
 * Open captions_translatar folder as a project in Android Studio.
 * Press Ctrl+F9, or select **Build** \> **Make Project**.
 
-## Run the sample
+## Run the project
 
 * Connect your Android device to your development PC.
 * Press Shift+F10, or select **Run** \> **Run 'app'**.
