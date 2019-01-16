@@ -6,7 +6,7 @@ This project uses Microsoft Cognitive Services Speech SDK, Blender Animations, a
 
 * UI Framework in Progress, ASL Vocabulary is growing, and Input Language Options in the works.
   
-  Demo version 1.0 release date: Febuary 1st 2019 
+  Demo version 1.0 release date: Febuary 1st 2019. 
 
 ## Features
 
