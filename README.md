@@ -15,7 +15,7 @@ This repository hosts interpretAR Android Studio Project files:
 * Plethora of ASL vocabulary for the best user experience
 * Simple and sleek UI design
 
-We tested the project with Brandon's Samsung S7 Edge with Android version 8.0.0. [Visit Brandon's Website](http://brandonrufino.com/) 
+We tested the project with Brandon's Samsung S7 Edge with Android version 8.0.0. [Visit Brandon's Website](http://brandonrufino.com/). 
 
 # Try interpretAR on your device
 
