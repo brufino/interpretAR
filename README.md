@@ -24,7 +24,6 @@ We tested the project with Brandon's Samsung S7 Edge with Android version 8.0.0.
 
 ## Prerequisites
 
-* ~~A subscription key for the Speech service. See [Try the speech service for free](https://docs.microsoft.com/azure/cognitive-services/speech-service/get-started). ~~
 * A PC (Windows, Linux, Mac) capable to run Android Studio.
 * Version 3.1 of [Android Studio](https://developer.android.com/studio/).
 * An ARM-based Android device (API 23: Android 6.0 Marshmallow or higher) [enabled for development](https://developer.android.com/studio/debug/dev-options) with a working microphone.
@@ -34,12 +33,6 @@ We tested the project with Brandon's Samsung S7 Edge with Android version 8.0.0.
 * **By building this project you will download the Microsoft Cognitive Services Speech SDK. By downloading you acknowledge its license, see [Speech SDK license agreement](https://aka.ms/csspeech/license201809).**
 * [Download the sample code to your development PC.]
 * Open captions_translatar folder as a project in Android Studio.
-
-* ~~Edit the `MainActivity` source:
-  * ~~Replace the string `YourSubscriptionKey` with your own subscription key.
-  * ~~Replace the string `YourServiceRegion` with the service region of your subscription.
-    ~~For example, replace with `westus` if you are using the 30-day free trial subscription.
-
 * Press Ctrl+F9, or select **Build** \> **Make Project**.
 
 ## Run the sample
