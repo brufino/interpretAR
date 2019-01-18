@@ -25,7 +25,6 @@ import java.util.concurrent.Future;
 import static android.Manifest.permission.*;
 
 //TODO: Figure how out to add larger 18.5 by 9 aspect ratio support for newer phones
-//TODO: Update icons on activity_main with higher res images... Adobe XD export issue
 public class MainActivity extends AppCompatActivity {
 
 
