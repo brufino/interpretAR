@@ -72,6 +72,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void accessAboutUs(View view) {
+        //do something in response to go
+        Intent intent = new Intent(this, AboutUsActivity.class);
+        startActivity(intent);
+    }
 
     // controls the CC button
     boolean CCisOn = true;

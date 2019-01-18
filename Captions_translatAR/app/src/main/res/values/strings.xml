@@ -28,4 +28,9 @@
     <string name="TranslateTo">Translate To:</string>
     <string name="title_activity_translatar">TranslatarActivity</string>
     <string name="main_page_tag_line">Tap to begin interpreting speech</string>
+    <string name="milos_about_me">I am looking for opportunities in software engineering and data analytics roles. I am proficient in Python, Ruby, Java and have exposure to many tools and libraries like jupyter notebooks, numpy, pandas, matplotlib etc. In my free time I like to play soccer, ski, scuba dive and anything where I’m active, solving puzzles or making things.</string>
+    <string name="milos_name">Milos Bijelic</string>
+    <string name="brandon_name">Brandon Rufino</string>
+    <string name="special_thanks">Special thanks to Arvin Angue and Justin Chau</string>
+
 </resources>
