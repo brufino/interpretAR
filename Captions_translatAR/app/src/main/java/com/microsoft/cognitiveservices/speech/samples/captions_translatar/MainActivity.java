@@ -24,6 +24,8 @@ import java.util.concurrent.Future;
 
 import static android.Manifest.permission.*;
 
+//TODO: Figure how out to add larger 18.5 by 9 aspect ratio support for newer phones
+//TODO: Update icons on activity_main with higher res images... Adobe XD export issue
 public class MainActivity extends AppCompatActivity {
 
 
@@ -64,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    // TODO: What do I need to pass to TranslatarActivity for the captions to work? - Milos
     public void accessCamera(View view) {
         //do something in response to go
         Intent intent = new Intent(this, TranslatarActivity.class);
