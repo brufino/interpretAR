@@ -26,7 +26,7 @@ import static android.Manifest.permission.RECORD_AUDIO;
 
 
 
-
+//TODO: PRIORITY: Update to Android Camera2 API
 
 //TODO: PRIORITY: Make activity stay on at all times : i.e. my phone screen locks after 30 seconds
 
