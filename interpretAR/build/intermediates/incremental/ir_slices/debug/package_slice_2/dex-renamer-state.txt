@@ -1,4 +1,0 @@
-#Sat Jan 26 18:43:20 EST 2019
-base.0=C\:\\Users\\brand_000\\Desktop\\gameinterpretAR\\interpretAR\\build\\intermediates\\transforms\\dexMerger\\debug\\2
-path.0=classes.dex
-renamed.0=classes.dex
