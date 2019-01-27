@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.microsoft.cognitiveservices.speech:client-sdk-1.2.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/client-sdk-1.2.0.aar/ef6f6370c5b593b0224cce9e1a3022ec/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/client-sdk-1.2.0.aar/ef6f6370c5b593b0224cce9e1a3022ec/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
