@@ -58,15 +58,15 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:src="@drawable/cc_off"
         android:clickable="true"
         android:onClick="CCbutonClicked"
+        android:src="@drawable/cc_off"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintHorizontal_bias="0.474"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.987" />
+        app:layout_constraintVertical_bias="0.986" />
 
     <ImageView
         android:id="@+id/featureASLicon"
@@ -75,12 +75,12 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:src="@drawable/asl_off"
         android:clickable="true"
         android:onClick="ASLbuttonClicked"
+        android:src="@drawable/asl_off"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="0.322"
+        app:layout_constraintHorizontal_bias="0.24"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.986" />
@@ -92,12 +92,12 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:src="@drawable/input_lang_off"
         android:clickable="true"
         android:onClick="InputLangSwitch"
+        android:src="@drawable/input_en_off"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="0.678"
+        app:layout_constraintHorizontal_bias="0.72"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.986" />
@@ -109,15 +109,15 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:src="@drawable/output_lang_off"
         android:clickable="true"
         android:onClick="OutputLangSwitch"
+        android:src="@drawable/output_en_off"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintHorizontal_bias="0.975"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.987" />
+        app:layout_constraintVertical_bias="0.986" />
 
     <TextView
         android:id="@+id/statement"
@@ -134,6 +134,23 @@
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="@+id/imageView"
         app:layout_constraintVertical_bias="0.335" />
+
+    <ImageView
+        android:id="@+id/featureHeadsetIcon"
+        android:layout_width="62dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:onClick="HeadsetButtonClicked"
+        android:src="@drawable/headset_off"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.979" />
 
 
 </android.support.constraint.ConstraintLayout>

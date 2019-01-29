@@ -11,14 +11,19 @@ import android.widget.TextView;
 //import com.meltdownlabs.interpretAR.R;
 
 //TODO: Figure how out to add larger 18.5 by 9 aspect ratio support for newer phones
+//TODO: Fix icon sizing - they seem the same in Adobe XD...
+
 public class MainActivity extends AppCompatActivity {
 
 
     //INITIALIZING  BUTTONS
     boolean ASLisOn = false;
     boolean CCisOn = true;
+    boolean HeadsetIsOn = true;
+
     int CCicon;
     int ASLicon;
+    int HeadsetIcon;
     int inputLangIcon;
     int outputLangIcon;
 
@@ -31,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     private ImageView langOUTicon;
     private ImageView featureCCicon;
     private ImageView featureASLicon;
-
+    private ImageView featureHeadsetIcon;
     private String inputLanguage="";
     private String outputLanguage="";
 
@@ -52,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
         langOUTicon=  findViewById(R.id.langOUTicon);
         featureCCicon= findViewById(R.id.featureCCicon);
         featureASLicon= findViewById(R.id.featureASLicon);
+        featureHeadsetIcon = findViewById(R.id.featureHeadsetIcon);
 
         //initialize ASL on
         featureASLicon.setImageResource(R.drawable.asl_on);
@@ -81,8 +87,8 @@ public class MainActivity extends AppCompatActivity {
         if (CCisOn) { // sets CC on and lang options on. lang starts with english and can toggle to different languages
             CCisOn = false;
             CCicon = R.drawable.cc_on;
-            inputLangIcon = R.drawable.input_lang_on;
-            outputLangIcon = R.drawable.output_lang_on;
+            inputLangIcon = R.drawable.input_en_on;
+            outputLangIcon = R.drawable.output_en_on;
             ASLicon= R.drawable.asl_off;
             ASLisOn= true;
             langINcounter=1;
@@ -92,8 +98,8 @@ public class MainActivity extends AppCompatActivity {
         } else { //sets CC off, and language off (with english as default off logo)
             CCisOn = true;
             CCicon = R.drawable.cc_off;
-            outputLangIcon = R.drawable.output_lang_off;
-            inputLangIcon = R.drawable.input_lang_off;
+            outputLangIcon = R.drawable.output_en_off;
+            inputLangIcon = R.drawable.input_en_off;
             ASLicon= R.drawable.asl_on;
             ASLisOn= false;
         }
@@ -109,15 +115,15 @@ public class MainActivity extends AppCompatActivity {
             ASLisOn = false;
             ASLicon = R.drawable.asl_on;
             CCicon = R.drawable.cc_off;
-            inputLangIcon = R.drawable.input_lang_off;
-            outputLangIcon = R.drawable.output_lang_off;
+            inputLangIcon = R.drawable.input_en_off;
+            outputLangIcon = R.drawable.output_en_off;
             CCisOn= true;
         } else { //if off CC goes on
             ASLisOn = true;
             ASLicon = R.drawable.asl_off;
             CCicon = R.drawable.cc_on;
-            inputLangIcon = R.drawable.input_lang_on;
-            outputLangIcon = R.drawable.output_lang_on;
+            inputLangIcon = R.drawable.input_en_on;
+            outputLangIcon = R.drawable.output_en_on;
             langINcounter=1;
             langOUTcounter=1;
             inputLanguage="en-US";
@@ -130,48 +136,60 @@ public class MainActivity extends AppCompatActivity {
         langOUTicon.setImageResource(outputLangIcon);
     }
 
+    // controls the ASL button
+    public void HeadsetButtonClicked(View view) {
+        if (HeadsetIsOn) {
+            HeadsetIsOn = false;
+            HeadsetIcon = R.drawable.headset_on;
+        } else {
+            HeadsetIsOn = true;
+            HeadsetIcon = R.drawable.headset_off;
+        }
+        featureHeadsetIcon.setImageResource(HeadsetIcon);
+    }
+
     // controls the input language button
     //for all possible languages please refer too https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/language-support
     //TODO: CREATE DRAWABLE ICONS FOR LANGUAGES BELOW
     public void InputLangSwitch(View view) {
         if (ASLisOn) {
             if (langINcounter == 1) {
-                inputLangIcon = R.drawable.input_lang_off; //make this french icon
+                inputLangIcon = R.drawable.input_fr_on; //make this french icon
                 inputLanguage="fr-CA"; //CANADIAN FRENCH
                 langINcounter++;
             } else if (langINcounter == 2) {
-                inputLangIcon = R.drawable.input_lang_on; //make this spanish icon
+                inputLangIcon = R.drawable.input_es_on; //make this spanish icon
                 inputLanguage="es-ES"; //SPANISH
                 langINcounter++;
             } else if (langINcounter == 3) {
-                inputLangIcon = R.drawable.input_lang_off; //make this german icon
+                inputLangIcon = R.drawable.input_de_on; //make this german icon
                 inputLanguage="de-DE"; //GERMAN
                 langINcounter++;
             } else if (langINcounter == 4) {
-                inputLangIcon = R.drawable.input_lang_on; //make this hindi icon
+                inputLangIcon = R.drawable.input_hi_on; //make this hindi icon
                 inputLanguage = "hi-IN"; //HINDI
                 langINcounter++;
             }else if (langINcounter == 5) {
-                inputLangIcon = R.drawable.input_lang_off; //make this japanese icon
+                inputLangIcon = R.drawable.input_jp_on; //make this japanese icon
                 inputLanguage = "ja-JP"; //JAPANESE
                 langINcounter++;
             }
             else if (langINcounter == 6) {
-                inputLangIcon = R.drawable.input_lang_on; //make this korean icon
+                inputLangIcon = R.drawable.input_kr_on; //make this korean icon
                 inputLanguage = "ko-KR"; //KOREAN
                 langINcounter++;
             }
             else if (langINcounter == 7) {
-                inputLangIcon = R.drawable.input_lang_on; //make this portugese icon
+                inputLangIcon = R.drawable.input_pt_on; //make this portugese icon
                 inputLanguage = "pt-PT"; //PORTUGESE
                 langINcounter++;
             }
             else if (langINcounter == 8) {
-                inputLangIcon = R.drawable.input_lang_off; //make this chinese icon
+                inputLangIcon = R.drawable.input_cn_on; //make this chinese icon
                 inputLanguage = "zh-CN"; //Chinese (MANDARIN simplified)
                 langINcounter++;
             }else {
-                inputLangIcon = R.drawable.input_lang_on; //good
+                inputLangIcon = R.drawable.input_en_on; //good
                 inputLanguage="en-US"; //ENGLISH
                 langINcounter = 1; //toggles back to french
             }
@@ -185,39 +203,39 @@ public class MainActivity extends AppCompatActivity {
     public void OutputLangSwitch(View view) {
         if (ASLisOn) {
             if (langOUTcounter == 1) {
-                outputLangIcon = R.drawable.output_lang_off; //make this french icon
+                outputLangIcon = R.drawable.output_fr_on; //make this french icon
                 outputLanguage="fr-CA"; //CANADIAN FRENCH
                 langOUTcounter++;
             } else if (langOUTcounter == 2) {
-                outputLangIcon = R.drawable.output_lang_on; //make this spanish icon
+                outputLangIcon = R.drawable.output_es_on; //make this spanish icon
                 outputLanguage="es-ES"; //SPANISH
                 langOUTcounter++;
             } else if (langOUTcounter == 3) {
-                outputLangIcon = R.drawable.output_lang_off; //make this German icon
+                outputLangIcon = R.drawable.output_de_on; //make this German icon
                 outputLanguage="de-DE"; //GERMAN
                 langOUTcounter++;
             } else if (langOUTcounter == 4) {
-                outputLangIcon = R.drawable.output_lang_off; //make this hindi icon
+                outputLangIcon = R.drawable.output_hi_on; //make this hindi icon
                 outputLanguage="hi-IN"; //HINDI
                 langOUTcounter++;
             } else if (langOUTcounter == 5) {
-                outputLangIcon = R.drawable.output_lang_on; //make this japanese icon
+                outputLangIcon = R.drawable.output_jp_on; //make this japanese icon
                 outputLanguage="ja-JP"; //JAPANESE
                 langOUTcounter++;
             } else if (langOUTcounter == 6) {
-                outputLangIcon = R.drawable.output_lang_off; //make this french icon
+                outputLangIcon = R.drawable.output_kr_on; //make this korean icon
                 outputLanguage="ko-KR"; //KOREAN
                 langOUTcounter++;
             } else if (langOUTcounter == 7) {
-                outputLangIcon = R.drawable.output_lang_on; //make this spanish icon
+                outputLangIcon = R.drawable.output_pt_on; //make this portuguese icon
                 outputLanguage="pt-PT"; //PORTUGESE
                 langOUTcounter++;
             } else if (langOUTcounter == 8) {
-                outputLangIcon = R.drawable.output_lang_off; //make this french icon
+                outputLangIcon = R.drawable.output_cn_on; //make this mandarin icon
                 outputLanguage="zh-CN"; //Chinese (MANDARIN simplified)
                 langOUTcounter++;
             } else {
-                outputLangIcon = R.drawable.output_lang_on; //good
+                outputLangIcon = R.drawable.output_en_on; //good
                 outputLanguage="en-US"; //ENGLISH
                 langOUTcounter = 1; //toggles back to french
             }

@@ -55,7 +55,7 @@ public class TranslatarActivity extends AppCompatActivity {
 
 
     // Replace below with your own subscription key
-    private static String SpeechSubscriptionKey = "e45c96cd8fa4454985294e10a463abd9";
+    private static String SpeechSubscriptionKey = "81f9f0b824e84c8c9c37d7a46d065899";
     // Replace below with your own service region (e.g., "westus").
     private static String SpeechRegion = "westus";
 

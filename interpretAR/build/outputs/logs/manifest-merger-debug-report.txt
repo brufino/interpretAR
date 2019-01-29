@@ -1,326 +1,326 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:2:1-76:12
-MERGED from [:VuforiaWrapper:] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\14ef81189c56a530d181cef4dfc092b0\AndroidManifest.xml:2:1-32:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\929acb385f32f543d4f642deab67f163\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e0a344ff50aa6e40f9c81251e61efeb2\AndroidManifest.xml:2:1-11:12
-MERGED from [com.microsoft.cognitiveservices.speech:client-sdk:1.2.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\client-sdk-1.2.0.aar\ef6f6370c5b593b0224cce9e1a3022ec\AndroidManifest.xml:2:1-14:12
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\ee6d184ef67262af535844c18792666c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\4d82969907c67452dea7dc618025e0a1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\005c091a2b0ea1d794683f82f91c1dd6\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\a6d1d8be8961fb3ed028d41f01f57170\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\c765a7ee196c45339658c7d9d83abbb0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\2d455e81789d31443894cec201c9010f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\a76a9c84cbf2994556f10988ad57465d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\b495d101e083ab20508a469abed4b5c5\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\86d9fe79f3bc76869f1e770710c98b5e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\07fda8875e4e5ff8b78965d91ffe2067\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\1100098436787b0a6427b1dace49ed05\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\8d702a7a7490f2e2190b161f026cf3d7\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\9cfee3c7ef61938cfcb52f7a6f5b4194\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f6e691a182dca73fc5746029c0075b64\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\c2b5f9800cb2091ff23407e077c635aa\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\ddc8ed9b35f1bdc46e0deaaa1732d520\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\c984beedefb7b40dc1e5014c4cc0a3f7\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\0a76ee5f2bfd4e0a3b14a3fc9120f597\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\0697825d5a1887abc74393ee4a7227c2\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\4cff603aed2c1a287a95882ca265f726\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\10f406564f125ecb9945e195dd36f596\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\49939ab94a1feecc05a9bc1a5a2b9f17\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\829cf2c07e600eadc0a315e4126bed55\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b8c1c416cc7efe92698fb8b40ec39732\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\13183a06289aa17292071d7a9e9acf68\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:2:1-76:12
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:2:1-76:12
+MERGED from [:VuforiaWrapper:] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\1b0bcf4f144def3befe59c37999cfc67\AndroidManifest.xml:2:1-32:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\745f8bea8bf816b54a773184664cd835\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\2e38389ac77f7fed862f34d51ab0e5c1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.microsoft.cognitiveservices.speech:client-sdk:1.2.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\client-sdk-1.2.0.aar\09f88edf163ff8fb5211c5aad28a2b9b\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\d0ad918ee3bdb728dbea331c838e1f29\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\a0331f5f5860307ffd23a895784669eb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\e49367bb72331e42d73895e07b9545f8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\610e191278dbafec7946fe737437bf15\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\e136c231b77a4245b4284f97c93e0239\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\1a85887e8439362c6077ca289fe7d258\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\6c60f548b90519cf34bcf52457faa266\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\b01c833a2e9e5225e5ad3325988ad4dd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\c3467fa96aebdc1846e6d4397906473d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\ac4d414313ad1d484eab1b6ea8d4eb00\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\081b4772df14eced7f130b43757d1597\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\22ff92927bb209c2c54d932c24bd03b8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d4c24ab2361cd5af602bebb71bf6861c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\16f4a86461587bad56b4ecb8f7b875a9\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\076c7e48b13034482beab802e61244c9\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\d31572ed2c924b7678b728bbf64be8d1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\ec0b7aebe4b331bee75ab91e2c26f454\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\048d9d639c5ef9405a524e267314c968\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\665f72ab995a0c9edc820d1ea37bc7eb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\498c0d3f5b0f5c5251b02b0cbc959d65\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\e8f5e15f87e1240a15166a76215dec32\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\29061d2972eb3aab64523426c682fb9e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\eb288d37ceab9b5f39d139be4a804d7b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d86b8550ab14002ddddba5167874e764\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\88103eaaf89ff73b1869d7b33f16e8dd\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:2:1-76:12
 	package
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:2:70-108
-		INJECTED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:2:70-108
+		INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:2:1-76:12
-		INJECTED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:2:1-76:12
+		INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:2:1-76:12
-		INJECTED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:2:1-76:12
+		INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:2:11-69
 	android:installLocation
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:2:109-149
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:2:109-149
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:4:3-63
-MERGED from [:VuforiaWrapper:] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\14ef81189c56a530d181cef4dfc092b0\AndroidManifest.xml:15:5-65
-MERGED from [:VuforiaWrapper:] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\14ef81189c56a530d181cef4dfc092b0\AndroidManifest.xml:15:5-65
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:4:3-63
+MERGED from [:VuforiaWrapper:] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\1b0bcf4f144def3befe59c37999cfc67\AndroidManifest.xml:15:5-65
+MERGED from [:VuforiaWrapper:] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\1b0bcf4f144def3befe59c37999cfc67\AndroidManifest.xml:15:5-65
 	android:name
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:4:20-60
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:4:20-60
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:5:3-65
-MERGED from [:VuforiaWrapper:] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\14ef81189c56a530d181cef4dfc092b0\AndroidManifest.xml:14:5-67
-MERGED from [:VuforiaWrapper:] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\14ef81189c56a530d181cef4dfc092b0\AndroidManifest.xml:14:5-67
-MERGED from [com.microsoft.cognitiveservices.speech:client-sdk:1.2.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\client-sdk-1.2.0.aar\ef6f6370c5b593b0224cce9e1a3022ec\AndroidManifest.xml:12:5-67
-MERGED from [com.microsoft.cognitiveservices.speech:client-sdk:1.2.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\client-sdk-1.2.0.aar\ef6f6370c5b593b0224cce9e1a3022ec\AndroidManifest.xml:12:5-67
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:5:3-65
+MERGED from [:VuforiaWrapper:] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\1b0bcf4f144def3befe59c37999cfc67\AndroidManifest.xml:14:5-67
+MERGED from [:VuforiaWrapper:] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\1b0bcf4f144def3befe59c37999cfc67\AndroidManifest.xml:14:5-67
+MERGED from [com.microsoft.cognitiveservices.speech:client-sdk:1.2.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\client-sdk-1.2.0.aar\09f88edf163ff8fb5211c5aad28a2b9b\AndroidManifest.xml:12:5-67
+MERGED from [com.microsoft.cognitiveservices.speech:client-sdk:1.2.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\client-sdk-1.2.0.aar\09f88edf163ff8fb5211c5aad28a2b9b\AndroidManifest.xml:12:5-67
 	android:name
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:5:20-62
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:5:20-62
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:6:3-69
-MERGED from [com.microsoft.cognitiveservices.speech:client-sdk:1.2.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\client-sdk-1.2.0.aar\ef6f6370c5b593b0224cce9e1a3022ec\AndroidManifest.xml:11:5-71
-MERGED from [com.microsoft.cognitiveservices.speech:client-sdk:1.2.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\client-sdk-1.2.0.aar\ef6f6370c5b593b0224cce9e1a3022ec\AndroidManifest.xml:11:5-71
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:6:3-69
+MERGED from [com.microsoft.cognitiveservices.speech:client-sdk:1.2.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\client-sdk-1.2.0.aar\09f88edf163ff8fb5211c5aad28a2b9b\AndroidManifest.xml:11:5-71
+MERGED from [com.microsoft.cognitiveservices.speech:client-sdk:1.2.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\client-sdk-1.2.0.aar\09f88edf163ff8fb5211c5aad28a2b9b\AndroidManifest.xml:11:5-71
 	android:name
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:6:20-66
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:6:20-66
 application
-ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:8:3-58:17
-MERGED from [:VuforiaWrapper:] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\14ef81189c56a530d181cef4dfc092b0\AndroidManifest.xml:19:5-30:19
-MERGED from [:VuforiaWrapper:] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\14ef81189c56a530d181cef4dfc092b0\AndroidManifest.xml:19:5-30:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e0a344ff50aa6e40f9c81251e61efeb2\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e0a344ff50aa6e40f9c81251e61efeb2\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f6e691a182dca73fc5746029c0075b64\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f6e691a182dca73fc5746029c0075b64\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\c2b5f9800cb2091ff23407e077c635aa\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\c2b5f9800cb2091ff23407e077c635aa\AndroidManifest.xml:22:5-23:19
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:8:3-58:17
+MERGED from [:VuforiaWrapper:] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\1b0bcf4f144def3befe59c37999cfc67\AndroidManifest.xml:19:5-30:19
+MERGED from [:VuforiaWrapper:] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\1b0bcf4f144def3befe59c37999cfc67\AndroidManifest.xml:19:5-30:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\2e38389ac77f7fed862f34d51ab0e5c1\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\2e38389ac77f7fed862f34d51ab0e5c1\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\16f4a86461587bad56b4ecb8f7b875a9\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\16f4a86461587bad56b4ecb8f7b875a9\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\076c7e48b13034482beab802e61244c9\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\076c7e48b13034482beab802e61244c9\AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f6e691a182dca73fc5746029c0075b64\AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\16f4a86461587bad56b4ecb8f7b875a9\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:12:7-33
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:12:7-33
 	android:label
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:10:7-39
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:10:7-39
 	android:debuggable
-		ADDED from [:VuforiaWrapper:] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\14ef81189c56a530d181cef4dfc092b0\AndroidManifest.xml:19:18-44
+		ADDED from [:VuforiaWrapper:] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\1b0bcf4f144def3befe59c37999cfc67\AndroidManifest.xml:19:18-44
 	android:roundIcon
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:11:7-51
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:11:7-51
 	android:icon
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:9:7-46
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:9:7-46
 	android:allowBackup
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:8:16-42
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:8:16-42
 	android:banner
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:15:7-44
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:15:7-44
 	android:theme
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:13:7-38
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:13:7-38
 	android:isGame
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:14:7-28
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:14:7-28
 activity#com.meltdownlabs.interpretAR.AboutUsActivity
-ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:17:5-22:16
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:17:5-22:16
 	android:screenOrientation
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:20:9-45
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:20:9-45
 	android:parentActivityName
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:18:9-79
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:18:9-79
 	android:configChanges
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:19:9-44
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:19:9-44
 	android:name
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:17:15-74
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:17:15-74
 activity#com.meltdownlabs.interpretAR.MainActivity
-ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:24:5-32:16
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:24:5-32:16
 	android:screenOrientation
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:26:9-45
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:26:9-45
 	android:configChanges
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:25:9-44
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:25:9-44
 	android:name
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:24:15-71
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:24:15-71
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
-ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:27:7-31:23
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:27:7-31:23
 action#android.intent.action.MAIN
-ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:28:9-61
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:28:9-61
 	android:name
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:28:17-58
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:28:17-58
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:29:9-69
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:29:9-69
 	android:name
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:29:19-66
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:29:19-66
 category#android.intent.category.LEANBACK_LAUNCHER
-ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:30:9-78
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:30:9-78
 	android:name
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:30:19-75
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:30:19-75
 activity#com.meltdownlabs.interpretAR.TranslatarActivity
-ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:34:5-42:16
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:34:5-42:16
 	android:parentActivityName
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:38:9-79
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:38:9-79
 	android:label
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:37:9-41
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:37:9-41
 	android:exported
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:36:9-32
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:36:9-32
 	android:configChanges
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:35:9-55
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:35:9-55
 	android:theme
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:39:9-46
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:39:9-46
 	android:name
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:34:15-77
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:34:15-77
 activity#com.meltdownlabs.interpretAR.UnityPlayerActivity
-ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:44:5-50:16
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:44:5-50:16
 	android:parentActivityName
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:47:9-79
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:47:9-79
 	android:exported
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:46:9-32
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:46:9-32
 	android:configChanges
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:45:9-55
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:45:9-55
 	android:theme
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:48:9-46
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:48:9-46
 	android:name
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:44:15-78
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:44:15-78
 meta-data#unity.build-id
-ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:52:5-101
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:52:5-101
 	android:value
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:52:46-98
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:52:46-98
 	android:name
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:52:16-45
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:52:16-45
 meta-data#unity.splash-mode
-ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:54:5-69
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:54:5-69
 	android:value
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:54:49-66
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:54:49-66
 	android:name
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:54:16-48
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:54:16-48
 meta-data#unity.splash-enable
-ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:56:5-74
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:56:5-74
 	android:value
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:56:51-71
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:56:51-71
 	android:name
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:56:16-50
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:56:16-50
 uses-feature#0x00020000
-ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:60:3-52
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:60:3-52
 	android:glEsVersion
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:60:17-49
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:60:17-49
 uses-feature#android.hardware.camera.autofocus
-ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:61:3-93
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:61:3-93
 	android:required
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:61:66-90
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:61:66-90
 	android:name
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:61:17-65
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:61:17-65
 uses-feature#android.hardware.camera.front
-ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:62:3-89
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:62:3-89
 	android:required
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:62:62-86
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:62:62-86
 	android:name
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:62:17-61
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:62:17-61
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:63:3-106
-MERGED from [:VuforiaWrapper:] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\14ef81189c56a530d181cef4dfc092b0\AndroidManifest.xml:17:5-81
-MERGED from [:VuforiaWrapper:] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\14ef81189c56a530d181cef4dfc092b0\AndroidManifest.xml:17:5-81
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:63:3-106
+MERGED from [:VuforiaWrapper:] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\1b0bcf4f144def3befe59c37999cfc67\AndroidManifest.xml:17:5-81
+MERGED from [:VuforiaWrapper:] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\1b0bcf4f144def3befe59c37999cfc67\AndroidManifest.xml:17:5-81
 	android:maxSdkVersion
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:63:77-103
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:63:77-103
 	android:name
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:63:20-76
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:63:20-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:64:3-105
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:64:3-105
 	android:maxSdkVersion
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:64:76-102
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:64:76-102
 	android:name
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:64:20-75
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:64:20-75
 uses-feature#android.hardware.touchscreen
-ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:65:3-88
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:65:3-88
 	android:required
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:65:61-85
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:65:61-85
 	android:name
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:65:17-60
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:65:17-60
 uses-feature#android.hardware.touchscreen.multitouch
-ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:66:3-99
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:66:3-99
 	android:required
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:66:72-96
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:66:72-96
 	android:name
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:66:17-71
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:66:17-71
 uses-feature#android.hardware.touchscreen.multitouch.distinct
-ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:67:3-108
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:67:3-108
 	android:required
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:67:81-105
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:67:81-105
 	android:name
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:67:17-80
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:67:17-80
 uses-feature#android.software.leanback
-ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:73:3-74:34
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:73:3-74:34
 	android:required
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:74:7-31
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:74:7-31
 	android:name
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml:73:17-57
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml:73:17-57
 uses-sdk
-INJECTED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml
-INJECTED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml
-MERGED from [:VuforiaWrapper:] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\14ef81189c56a530d181cef4dfc092b0\AndroidManifest.xml:8:5-10:41
-MERGED from [:VuforiaWrapper:] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\14ef81189c56a530d181cef4dfc092b0\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\929acb385f32f543d4f642deab67f163\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\929acb385f32f543d4f642deab67f163\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e0a344ff50aa6e40f9c81251e61efeb2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e0a344ff50aa6e40f9c81251e61efeb2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.microsoft.cognitiveservices.speech:client-sdk:1.2.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\client-sdk-1.2.0.aar\ef6f6370c5b593b0224cce9e1a3022ec\AndroidManifest.xml:7:5-9:41
-MERGED from [com.microsoft.cognitiveservices.speech:client-sdk:1.2.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\client-sdk-1.2.0.aar\ef6f6370c5b593b0224cce9e1a3022ec\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\ee6d184ef67262af535844c18792666c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\ee6d184ef67262af535844c18792666c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\4d82969907c67452dea7dc618025e0a1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\4d82969907c67452dea7dc618025e0a1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\005c091a2b0ea1d794683f82f91c1dd6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\005c091a2b0ea1d794683f82f91c1dd6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\a6d1d8be8961fb3ed028d41f01f57170\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\a6d1d8be8961fb3ed028d41f01f57170\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\c765a7ee196c45339658c7d9d83abbb0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\c765a7ee196c45339658c7d9d83abbb0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\2d455e81789d31443894cec201c9010f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\2d455e81789d31443894cec201c9010f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\a76a9c84cbf2994556f10988ad57465d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\a76a9c84cbf2994556f10988ad57465d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\b495d101e083ab20508a469abed4b5c5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\b495d101e083ab20508a469abed4b5c5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\86d9fe79f3bc76869f1e770710c98b5e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\86d9fe79f3bc76869f1e770710c98b5e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\07fda8875e4e5ff8b78965d91ffe2067\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\07fda8875e4e5ff8b78965d91ffe2067\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\1100098436787b0a6427b1dace49ed05\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\1100098436787b0a6427b1dace49ed05\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\8d702a7a7490f2e2190b161f026cf3d7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\8d702a7a7490f2e2190b161f026cf3d7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\9cfee3c7ef61938cfcb52f7a6f5b4194\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\9cfee3c7ef61938cfcb52f7a6f5b4194\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f6e691a182dca73fc5746029c0075b64\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f6e691a182dca73fc5746029c0075b64\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\c2b5f9800cb2091ff23407e077c635aa\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\c2b5f9800cb2091ff23407e077c635aa\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\ddc8ed9b35f1bdc46e0deaaa1732d520\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\ddc8ed9b35f1bdc46e0deaaa1732d520\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\c984beedefb7b40dc1e5014c4cc0a3f7\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\c984beedefb7b40dc1e5014c4cc0a3f7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\0a76ee5f2bfd4e0a3b14a3fc9120f597\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\0a76ee5f2bfd4e0a3b14a3fc9120f597\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\0697825d5a1887abc74393ee4a7227c2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\0697825d5a1887abc74393ee4a7227c2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\4cff603aed2c1a287a95882ca265f726\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\4cff603aed2c1a287a95882ca265f726\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\10f406564f125ecb9945e195dd36f596\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\10f406564f125ecb9945e195dd36f596\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\49939ab94a1feecc05a9bc1a5a2b9f17\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\49939ab94a1feecc05a9bc1a5a2b9f17\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\829cf2c07e600eadc0a315e4126bed55\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\829cf2c07e600eadc0a315e4126bed55\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b8c1c416cc7efe92698fb8b40ec39732\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b8c1c416cc7efe92698fb8b40ec39732\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\13183a06289aa17292071d7a9e9acf68\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\13183a06289aa17292071d7a9e9acf68\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml
-INJECTED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml
+MERGED from [:VuforiaWrapper:] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\1b0bcf4f144def3befe59c37999cfc67\AndroidManifest.xml:8:5-10:41
+MERGED from [:VuforiaWrapper:] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\1b0bcf4f144def3befe59c37999cfc67\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\745f8bea8bf816b54a773184664cd835\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\745f8bea8bf816b54a773184664cd835\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\2e38389ac77f7fed862f34d51ab0e5c1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\2e38389ac77f7fed862f34d51ab0e5c1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.microsoft.cognitiveservices.speech:client-sdk:1.2.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\client-sdk-1.2.0.aar\09f88edf163ff8fb5211c5aad28a2b9b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.cognitiveservices.speech:client-sdk:1.2.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\client-sdk-1.2.0.aar\09f88edf163ff8fb5211c5aad28a2b9b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\d0ad918ee3bdb728dbea331c838e1f29\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\d0ad918ee3bdb728dbea331c838e1f29\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\a0331f5f5860307ffd23a895784669eb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\a0331f5f5860307ffd23a895784669eb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\e49367bb72331e42d73895e07b9545f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\e49367bb72331e42d73895e07b9545f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\610e191278dbafec7946fe737437bf15\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\610e191278dbafec7946fe737437bf15\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\e136c231b77a4245b4284f97c93e0239\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\e136c231b77a4245b4284f97c93e0239\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\1a85887e8439362c6077ca289fe7d258\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\1a85887e8439362c6077ca289fe7d258\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\6c60f548b90519cf34bcf52457faa266\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\6c60f548b90519cf34bcf52457faa266\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\b01c833a2e9e5225e5ad3325988ad4dd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\b01c833a2e9e5225e5ad3325988ad4dd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\c3467fa96aebdc1846e6d4397906473d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\c3467fa96aebdc1846e6d4397906473d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\ac4d414313ad1d484eab1b6ea8d4eb00\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\ac4d414313ad1d484eab1b6ea8d4eb00\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\081b4772df14eced7f130b43757d1597\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\081b4772df14eced7f130b43757d1597\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\22ff92927bb209c2c54d932c24bd03b8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\22ff92927bb209c2c54d932c24bd03b8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d4c24ab2361cd5af602bebb71bf6861c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d4c24ab2361cd5af602bebb71bf6861c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\16f4a86461587bad56b4ecb8f7b875a9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\16f4a86461587bad56b4ecb8f7b875a9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\076c7e48b13034482beab802e61244c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\076c7e48b13034482beab802e61244c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\d31572ed2c924b7678b728bbf64be8d1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\d31572ed2c924b7678b728bbf64be8d1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\ec0b7aebe4b331bee75ab91e2c26f454\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\ec0b7aebe4b331bee75ab91e2c26f454\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\048d9d639c5ef9405a524e267314c968\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\048d9d639c5ef9405a524e267314c968\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\665f72ab995a0c9edc820d1ea37bc7eb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\665f72ab995a0c9edc820d1ea37bc7eb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\498c0d3f5b0f5c5251b02b0cbc959d65\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\498c0d3f5b0f5c5251b02b0cbc959d65\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\e8f5e15f87e1240a15166a76215dec32\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\e8f5e15f87e1240a15166a76215dec32\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\29061d2972eb3aab64523426c682fb9e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\29061d2972eb3aab64523426c682fb9e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\eb288d37ceab9b5f39d139be4a804d7b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\eb288d37ceab9b5f39d139be4a804d7b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d86b8550ab14002ddddba5167874e764\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d86b8550ab14002ddddba5167874e764\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\88103eaaf89ff73b1869d7b33f16e8dd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\88103eaaf89ff73b1869d7b33f16e8dd\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml
-		ADDED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\brand_000\Desktop\gameinterpretAR\interpretAR\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\InterpretAR\src\main\AndroidManifest.xml
 uses-feature#android.hardware.camera
-ADDED from [:VuforiaWrapper:] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\14ef81189c56a530d181cef4dfc092b0\AndroidManifest.xml:12:5-60
+ADDED from [:VuforiaWrapper:] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\1b0bcf4f144def3befe59c37999cfc67\AndroidManifest.xml:12:5-60
 	android:name
-		ADDED from [:VuforiaWrapper:] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\14ef81189c56a530d181cef4dfc092b0\AndroidManifest.xml:12:19-57
+		ADDED from [:VuforiaWrapper:] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\1b0bcf4f144def3befe59c37999cfc67\AndroidManifest.xml:12:19-57
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:VuforiaWrapper:] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\14ef81189c56a530d181cef4dfc092b0\AndroidManifest.xml:16:5-79
+ADDED from [:VuforiaWrapper:] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\1b0bcf4f144def3befe59c37999cfc67\AndroidManifest.xml:16:5-79
 	android:name
-		ADDED from [:VuforiaWrapper:] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\14ef81189c56a530d181cef4dfc092b0\AndroidManifest.xml:16:22-76
+		ADDED from [:VuforiaWrapper:] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\1b0bcf4f144def3befe59c37999cfc67\AndroidManifest.xml:16:22-76
 meta-data#com.google.ar.core
-ADDED from [:VuforiaWrapper:] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\14ef81189c56a530d181cef4dfc092b0\AndroidManifest.xml:22:9-24:40
+ADDED from [:VuforiaWrapper:] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\1b0bcf4f144def3befe59c37999cfc67\AndroidManifest.xml:22:9-24:40
 	android:value
-		ADDED from [:VuforiaWrapper:] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\14ef81189c56a530d181cef4dfc092b0\AndroidManifest.xml:24:13-37
+		ADDED from [:VuforiaWrapper:] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\1b0bcf4f144def3befe59c37999cfc67\AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from [:VuforiaWrapper:] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\14ef81189c56a530d181cef4dfc092b0\AndroidManifest.xml:23:13-46
+		ADDED from [:VuforiaWrapper:] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\1b0bcf4f144def3befe59c37999cfc67\AndroidManifest.xml:23:13-46
 uses-library#com.osterhoutgroup.api.ext
-ADDED from [:VuforiaWrapper:] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\14ef81189c56a530d181cef4dfc092b0\AndroidManifest.xml:27:9-29:40
+ADDED from [:VuforiaWrapper:] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\1b0bcf4f144def3befe59c37999cfc67\AndroidManifest.xml:27:9-29:40
 	android:required
-		ADDED from [:VuforiaWrapper:] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\14ef81189c56a530d181cef4dfc092b0\AndroidManifest.xml:29:13-37
+		ADDED from [:VuforiaWrapper:] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\1b0bcf4f144def3befe59c37999cfc67\AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from [:VuforiaWrapper:] C:\Users\brand_000\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\14ef81189c56a530d181cef4dfc092b0\AndroidManifest.xml:28:13-54
+		ADDED from [:VuforiaWrapper:] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\1b0bcf4f144def3befe59c37999cfc67\AndroidManifest.xml:28:13-54
