@@ -1,17 +1,18 @@
 # Repository for interpretAR
 
-This project uses Microsoft Cognitive Services Speech SDK, Blender Animations, and Android Studio to create an application that translates multi-language speech input into American Sign Language (ASL) real time through an Augmented Reality (AR) approach.
+This project uses Microsoft Cognitive Services Speech SDK, Blender Animations, Unity Gaming Engine, and Android Studio to create an application that translates multi-language speech input into American Sign Language (ASL) real time through an Augmented Reality (AR) approach.
 
 ## News
 
-* UI Framework in Progress, ASL Vocabulary is growing, and Input Language Options in the works.
+* interpretAR beta version complete! Download current version for multi-language speech to text integrated with your mobile camera
+* ASL Voice recognition functional in Unity. Integration into Android commencing and expected to role out later this month
   
-  Demo version 1.0 release date: Febuary 1st 2019. 
+  Demo version 1.0 release date: Febuary 28th 2019. 
 
 ## Features
 
 This repository hosts interpretAR Android Studio Project files:
-* Multi-language speech input capabilities
+* Multi-language speech input / output capabilities
 * Plethora of ASL vocabulary for the best user experience
 * Simple and sleek UI design
 
@@ -25,14 +26,14 @@ We tested the project with Brandon's Samsung S7 Edge with Android version 8.0.0.
 ## Prerequisites
 
 * A PC (Windows, Linux, Mac) capable to run Android Studio.
-* Version 3.1 of [Android Studio](https://developer.android.com/studio/).
+* Version 3.3 of [Android Studio](https://developer.android.com/studio/).
 * An ARM-based Android device (API 23: Android 6.0 Marshmallow or higher) [enabled for development](https://developer.android.com/studio/debug/dev-options) with a working microphone.
 
 ## Build the project
 
 * **By building this project you will download the Microsoft Cognitive Services Speech SDK. By downloading you acknowledge its license, see [Speech SDK license agreement](https://aka.ms/csspeech/license201809).**
 * [Download the sample code to your development PC.]
-* Open captions_translatar folder as a project in Android Studio.
+* Open interpretAR folder as a project in Android Studio.
 * Press Ctrl+F9, or select **Build** \> **Make Project**.
 
 ## Run the project
