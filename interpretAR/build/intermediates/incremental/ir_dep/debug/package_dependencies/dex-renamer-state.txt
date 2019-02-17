@@ -1,4 +1,0 @@
-#Mon Jan 28 21:31:26 EST 2019
-base.0=C\:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\InterpretAR\\build\\intermediates\\transforms\\dexMerger\\debug\\10
-path.0=classes.dex
-renamed.0=classes.dex
