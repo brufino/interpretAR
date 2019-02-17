@@ -5,7 +5,7 @@ This project uses Microsoft Cognitive Services Speech SDK, Blender Animations, U
 ## News
 
 * interpretAR beta version complete! Download current version for multi-language speech to text integrated with your mobile camera
-* ASL Voice recognition functional in Unity. Integration into Android commencing and expected to role out later this month
+* ASL Voice recognition functional in ANDROID! Say the words 'hello' or 'why' to see ASL translation. Common error cases and increase in vocabularly commencing.
   
   Demo version 1.0 release date: Febuary 28th 2019. 
 
