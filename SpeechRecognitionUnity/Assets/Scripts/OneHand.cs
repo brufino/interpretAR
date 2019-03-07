@@ -63,7 +63,7 @@ public class OneHand : MonoBehaviour{
     /// PLEASE COMMENT ABOVE AND UNCOMMENT BELOW. ALSO MAKE SURE GLOBAL LIBRARIES HAS KKSPEECH UNCOMMENTED AND WINDOWS COMMENTED
     /// </summary>
 
-    //COMMENT IF WINDOWS TESTING. UNCOMMENT IF ANDROID TESTING.
+    //COMMENT BELOW IF WINDOWS TESTING. UNCOMMENT IF ANDROID TESTING.
 
 
     public Text resultText;
@@ -78,7 +78,6 @@ public class OneHand : MonoBehaviour{
         if (SpeechRecognizer.ExistsOnDevice())
         {
             resultText.text = "I am running start";
-
             SpeechRecognizerListener listener = GameObject.FindObjectOfType<SpeechRecognizerListener>();
             listener.onAuthorizationStatusFetched.AddListener(OnAuthorizationStatusFetched);
             listener.onAvailabilityChanged.AddListener(OnAvailabilityChange);
@@ -156,7 +155,7 @@ public class OneHand : MonoBehaviour{
     ////user stops recording speech
     public void OnEndOfSpeech()
     {
-        resultText.text = "I am running onEndofSpeech";
+        //resultText.text = "I am running onEndofSpeech";
         if (SpeechRecognizer.IsRecording())
         {
             SpeechRecognizer.StopIfRecording();
@@ -174,14 +173,23 @@ public class OneHand : MonoBehaviour{
     public void OnError(string error)
     {
         Debug.LogError(error);
-        if(error.Contains("SpeechRecognizer error code 6"))
+        if(error.Contains("6"))
         {
             SpeechRecognizer.StartRecording(true);
             resultText.text = "Say something :-)";
         }
+        else if (error.Contains("3"))
+        {
+            resultText.text = "Audio Recording error... try moving to a quieter enviornment";
+            SpeechRecognizer.StartRecording(true);
+        }
+        else if (error.Contains("1")|| error.Contains("2")||error.Contains("4")||error.Contains("5"))
+        {
+            resultText.text = "Server / Network errors... Press back and try again! \n [" + error + "]";
+        }
         else
         {
-            resultText.text = "Something went wrong... Try again! \n [" + error + "]";
+            resultText.text = "Something went wrong... Press back and try again! \n [" + error + "]";
         }
         //startRecordingButton.GetComponentInChildren<Text>().text = "Start Recording";
     }
@@ -207,21 +215,21 @@ public class OneHand : MonoBehaviour{
 
         if (command.Contains("why"))
         {
-            // anim.CrossFade("why", -1, 0f);
-            anim.CrossFade("why", 1);
+             anim.CrossFade("why", -1);
+            //anim.CrossFade("why", 1);
 
         }
 
-        if (command.Contains("vee"))
+        if (command.Contains("letter v"))
         {
-            //anim.CrossFade("V", -1, 0f);
-            anim.CrossFade("V", 1);
+            anim.CrossFade("V", -1);
+            //anim.CrossFade("V", 1);
         }
 
         if (command.Contains("hello"))
         {
-            //anim.CrossFade("X", -1, 0f);
-            anim.CrossFade("X", 1);
+            anim.CrossFade("X", -1);
+            //anim.CrossFade("X", 1);
         }
         //resultText.text = "Say something :-)";
         //SpeechRecognizer.StartRecording(true);
@@ -229,6 +237,11 @@ public class OneHand : MonoBehaviour{
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+            //Application.LoadLevel ("MainActivity.class");
+        }
 
     }
     ////justins code figure out how this works

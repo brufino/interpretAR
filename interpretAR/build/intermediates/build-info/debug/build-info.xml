@@ -2,36 +2,66 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="26"
-    build-mode="COLD"
+    build-mode="FULL"
     density="xxhdpi"
     format="10"
     plugin-version="3.3.0"
-    timestamp="1550426534798"
+    timestamp="1551920286730"
     token="-3477365243410012057"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="9429" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="5692" />
     <task
         name="verifier"
-        duration="0" />
+        duration="4648" />
 
     <artifact
-        location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        location="C:\Users\brand_000\Desktop\4BI6_Capstone_Project\interpretAR\build\intermediates\resources\instant-run\debug\resources-debug.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        location="C:\Users\brand_000\Desktop\4BI6_Capstone_Project\interpretAR\build\intermediates\split-apk\debug\dep\dependencies.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        location="C:\Users\brand_000\Desktop\4BI6_Capstone_Project\interpretAR\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
+    <artifact
+        location="C:\Users\brand_000\Desktop\4BI6_Capstone_Project\interpretAR\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\brand_000\Desktop\4BI6_Capstone_Project\interpretAR\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\brand_000\Desktop\4BI6_Capstone_Project\interpretAR\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\brand_000\Desktop\4BI6_Capstone_Project\interpretAR\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\brand_000\Desktop\4BI6_Capstone_Project\interpretAR\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\brand_000\Desktop\4BI6_Capstone_Project\interpretAR\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\brand_000\Desktop\4BI6_Capstone_Project\interpretAR\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\brand_000\Desktop\4BI6_Capstone_Project\interpretAR\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\brand_000\Desktop\4BI6_Capstone_Project\interpretAR\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\brand_000\Desktop\4BI6_Capstone_Project\interpretAR\build\intermediates\instant-run-apk\debug\interpretAR-debug.apk"
+        type="SPLIT_MAIN" />
     <artifact
         location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
@@ -39,84 +69,76 @@
         location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_6.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\dep\dependencies.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_8.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\instant-run-apk\debug\interpretAR-debug.apk"
-        type="SPLIT_MAIN" />
+        location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1550424123614"
+        timestamp="1551920286730"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="C:\Users\brand_000\Desktop\4BI6_Capstone_Project\interpretAR\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="C:\Users\brand_000\Desktop\4BI6_Capstone_Project\interpretAR\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="C:\Users\brand_000\Desktop\4BI6_Capstone_Project\interpretAR\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="C:\Users\brand_000\Desktop\4BI6_Capstone_Project\interpretAR\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="C:\Users\brand_000\Desktop\4BI6_Capstone_Project\interpretAR\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="C:\Users\brand_000\Desktop\4BI6_Capstone_Project\interpretAR\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="C:\Users\brand_000\Desktop\4BI6_Capstone_Project\interpretAR\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="C:\Users\brand_000\Desktop\4BI6_Capstone_Project\interpretAR\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="C:\Users\brand_000\Desktop\4BI6_Capstone_Project\interpretAR\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="C:\Users\brand_000\Desktop\4BI6_Capstone_Project\interpretAR\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="C:\Users\brand_000\Desktop\4BI6_Capstone_Project\interpretAR\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\instant-run-apk\debug\interpretAR-debug.apk"
+            location="C:\Users\brand_000\Desktop\4BI6_Capstone_Project\interpretAR\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\brand_000\Desktop\4BI6_Capstone_Project\interpretAR\build\intermediates\instant-run-apk\debug\interpretAR-debug.apk"
             type="SPLIT_MAIN" />
-        <artifact
-            location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\resources\instant-run\debug\resources-debug.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1550426534798"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
         <artifact
             location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
@@ -124,26 +146,32 @@
             location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\instant-run-apk\debug\interpretAR-debug.apk"
-            type="SPLIT_MAIN" />
+            location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\brand_000\Desktop\SpeechRecognitionUnity\Builds\interpretAR\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>

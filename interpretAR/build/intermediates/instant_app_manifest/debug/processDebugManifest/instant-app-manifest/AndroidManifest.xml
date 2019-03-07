@@ -104,7 +104,7 @@
 
         <meta-data
             android:name="unity.build-id"
-            android:value="3ebe2891-5e0c-406a-a118-3d4adfdb1af7" />
+            android:value="258c9704-ab28-478d-98ed-6a9b54f20731" />
         <meta-data
             android:name="unity.splash-mode"
             android:value="0" />
@@ -118,11 +118,6 @@
         <uses-library
             android:name="com.osterhoutgroup.api.ext"
             android:required="false" />
-
-        <provider
-            android:name="com.android.tools.ir.server.InstantRunContentProvider"
-            android:authorities="com.meltdownLabs.interpretAR.com.android.tools.ir.server.InstantRunContentProvider"
-            android:multiprocess="true" />
     </application>
 
 </manifest>

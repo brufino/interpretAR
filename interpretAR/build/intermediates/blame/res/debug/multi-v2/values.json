@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\brand_000\\Desktop\\SpeechRecognitionUnity\\Builds\\interpretAR\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\brand_000\\Desktop\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\brand_000\\.gradle\\caches\\transforms-1\\files-1.1\\constraint-layout-1.1.3.aar\\41be94da73ddbfd580117aca8bfd9adb\\res\\values\\values.xml",
@@ -20,6 +20,42 @@
                         "endLines": "2,10,11,12,13,14,20,23,24,25,28,29,32,35,36,37,38,39,42,45,46,47,48,53,56,59,60,61,66,67,68,71,74,75,78,81,84,87,88,91,94,95,100,101,106,109,112,113,114,115,116,117,118,119,120,121,130,2565,2566,2567,2804",
                         "endColumns": "60,11,47,51,60,45,11,60,59,69,11,67,11,11,61,64,67,66,11,11,66,64,64,11,11,11,65,66,11,68,65,11,11,66,11,11,11,11,64,11,11,64,11,66,11,11,11,64,61,61,61,58,59,60,60,58,11,2575,131,3263,107",
                         "endOffsets": "161,452,500,552,613,659,902,1057,1117,1187,1320,1388,1517,1643,1705,1770,1838,1905,2028,2153,2220,2285,2350,2531,2652,2773,2839,2906,3116,3185,3251,3376,3502,3569,3695,3822,3947,4074,4139,4265,4388,4453,4661,4728,4908,5028,5148,5213,5275,5337,5399,5458,5518,5579,5640,5699,6074,164223,164355,167619,181687"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\brand_000\\Desktop\\4BI6_Capstone_Project\\interpretAR\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "157,57,105",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "198,99,151"
+                    },
+                    "to": {
+                        "startLines": "153,154,155",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "7704,7750,7797",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "7745,7792,7843"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\brand_000\\Desktop\\4BI6_Capstone_Project\\interpretAR\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3,16,13,18,10",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "87,694,554,792,418",
+                        "endLines": "8,17,15,21,12",
+                        "endColumns": "8,8,8,8,8",
+                        "endOffsets": "384,790,692,1017,552"
+                    },
+                    "to": {
+                        "startLines": "392,1458,1762,1765,1868",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "24401,92625,115936,116077,124158",
+                        "endLines": "397,1459,1764,1768,1870",
+                        "endColumns": "8,8,8,8,8",
+                        "endOffsets": "24693,92720,116072,116299,124290"
                     }
                 },
                 {
@@ -42,23 +78,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\brand_000\\Desktop\\SpeechRecognitionUnity\\Builds\\interpretAR\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "9,2,8,6,3,4,5,7",
-                        "startColumns": "2,2,2,2,2,2,2,2",
-                        "startOffsets": "1298,55,759,616,103,182,564,671",
-                        "endColumns": "49,46,537,53,77,380,50,86",
-                        "endOffsets": "1345,99,1294,667,178,560,612,755"
-                    },
-                    "to": {
-                        "startLines": "377,378,379,380,381,382,383,385",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "22533,22585,22634,23174,23230,23310,23693,23799",
-                        "endColumns": "51,48,539,55,79,382,52,88",
-                        "endOffsets": "22580,22629,23169,23225,23305,23688,23741,23883"
-                    }
-                },
-                {
                     "source": "C:\\Users\\brand_000\\.gradle\\caches\\transforms-1\\files-1.1\\coordinatorlayout-28.0.0.aar\\6cf7b54741b59469926817dba95d2a4d\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,102,3,13",
@@ -78,39 +97,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\brand_000\\Desktop\\SpeechRecognitionUnity\\Builds\\interpretAR\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\brand_000\\Desktop\\4BI6_Capstone_Project\\interpretAR\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "3,16,13,18,10",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "87,694,554,792,418",
-                        "endLines": "8,17,15,21,12",
-                        "endColumns": "8,8,8,8,8",
-                        "endOffsets": "384,790,692,1017,552"
+                        "startLines": "9,2,8,6,3,4,5,7",
+                        "startColumns": "2,2,2,2,2,2,2,2",
+                        "startOffsets": "1298,55,759,616,103,182,564,671",
+                        "endColumns": "49,46,537,53,77,380,50,86",
+                        "endOffsets": "1345,99,1294,667,178,560,612,755"
                     },
                     "to": {
-                        "startLines": "392,1458,1762,1765,1868",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "24401,92625,115936,116077,124158",
-                        "endLines": "397,1459,1764,1768,1870",
-                        "endColumns": "8,8,8,8,8",
-                        "endOffsets": "24693,92720,116072,116299,124290"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\brand_000\\Desktop\\SpeechRecognitionUnity\\Builds\\interpretAR\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "157,57,105",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "198,99,151"
-                    },
-                    "to": {
-                        "startLines": "153,154,155",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "7704,7750,7797",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "7745,7792,7843"
+                        "startLines": "377,378,379,380,381,382,383,385",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "22533,22585,22634,23174,23230,23310,23693,23799",
+                        "endColumns": "51,48,539,55,79,382,52,88",
+                        "endOffsets": "22580,22629,23169,23225,23305,23688,23741,23883"
                     }
                 },
                 {

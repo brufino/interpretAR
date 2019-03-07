@@ -24,8 +24,9 @@ namespace KKSpeech {
 
 		// remember to add ExampleScene to Build Settings!
 		public void GoToRecordingScene() {
-			SceneManager.LoadScene("ExampleScene");
-		}
+            //SceneManager.LoadScene("ExampleScene");
+            SceneManager.LoadScene("ASLTranslation");
+        }
 
 		void OnDropdownValueChanged(int index) {
 			LanguageOption languageOption = languageOptions[index];

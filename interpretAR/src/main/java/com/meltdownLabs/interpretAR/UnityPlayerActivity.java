@@ -15,10 +15,7 @@ import android.view.WindowManager;
 public class UnityPlayerActivity extends Activity
 {
     protected UnityPlayer mUnityPlayer; // don't change the name of this variable; referenced from native code
-    //TODO: ERROR HANDLING AND REMOVE TEXT DEBUG MESSAGES
-    //TODO: ADD BACK BUTTON TO EXIT APPLICATION
-    //TODO: VUFORIA IMAGE ASSET FOR AR EXPERIENCE
-    //http://kokosoft.pl/docs/speechrecognition/readme.pdf
+
     // Setup activity layout
     @Override protected void onCreate(Bundle savedInstanceState)
     {

@@ -40,7 +40,6 @@
       <!-- configure this activity to use landscape orientation
                android:screenOrientation="landscape" -->
     </activity>
-
     <activity android:name="com.meltdownLabs.interpretAR.UnityPlayerActivity"
         android:configChanges="orientation|screenSize"
         android:exported="true"
@@ -50,7 +49,7 @@
     </activity>
 
 
-    <meta-data android:name="unity.build-id" android:value="3ebe2891-5e0c-406a-a118-3d4adfdb1af7" />
+    <meta-data android:name="unity.build-id" android:value="258c9704-ab28-478d-98ed-6a9b54f20731" />
     <meta-data android:name="unity.splash-mode" android:value="0" />
     <meta-data android:name="unity.splash-enable" android:value="True" />
   </application>
