@@ -5,9 +5,9 @@ This project uses Microsoft Cognitive Services Speech SDK, Blender Animations, U
 ## News
 
 * interpretAR beta version complete! Download current version for multi-language speech to text integrated with your mobile camera
-* ASL Voice recognition functional in ANDROID! Say the words 'hello' or 'why' to see ASL translation. Common error cases and increase in vocabularly commencing.
+* ASL Voice recognition functional in ANDROID! Say the words 'hello' or 'why' or "letter v" to see ASL translation. Face recognition, and vocabularly growth now underway!
   
-  Demo version 1.0 release date: Febuary 28th 2019. 
+  Demo version 1.1 release date: March 28th 2019. 
 
 ## Features
 
