@@ -3,7 +3,6 @@ package com.meltdownLabs.interpretAR;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.meltdownLabs.interpretAR.R;
 
 public class AboutUsActivity extends AppCompatActivity {
 

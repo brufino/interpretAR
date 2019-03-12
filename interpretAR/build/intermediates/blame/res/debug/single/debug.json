@@ -48,12 +48,12 @@
         "source": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\src\\main\\res\\drawable-v24\\background.png"
     },
     {
-        "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable-mdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_btn_colored_text_material.xml.flat",
         "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\color-v23\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable-mdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -100,12 +100,12 @@
         "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable_input_pt_on.png.flat",
-        "source": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\src\\main\\res\\drawable\\input_pt_on.png"
-    },
-    {
         "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable_input_pt_on.png.flat",
+        "source": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\src\\main\\res\\drawable\\input_pt_on.png"
     },
     {
         "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -152,12 +152,12 @@
         "source": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\src\\main\\res\\drawable-v24\\milos_headshot_circle.png"
     },
     {
-        "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
-        "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
         "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
@@ -176,12 +176,12 @@
         "source": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\src\\main\\res\\drawable-v24\\help.jpg"
     },
     {
-        "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_light.xml.flat",
         "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
@@ -280,28 +280,28 @@
         "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
     {
-        "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
-        "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+        "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
         "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable-mdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
-        "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
+        "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
         "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\src\\main\\res\\mipmap-mdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
-        "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
-    },
-    {
         "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
         "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\cc5a12a84de7c83b511658afdcd252c4\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
         "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_menu_overflow_material.xml.flat",
@@ -324,12 +324,12 @@
         "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_dark.xml.flat",
-        "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_radio_material.xml.flat",
         "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_dark.xml.flat",
+        "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
@@ -400,12 +400,12 @@
         "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-v23_abc_control_background_material.xml.flat",
-        "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable-v23\\abc_control_background_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_radio.xml.flat",
         "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-v23_abc_control_background_material.xml.flat",
+        "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable-v23\\abc_control_background_material.xml"
     },
     {
         "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_36dp.png.flat",
@@ -452,16 +452,20 @@
         "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
+        "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-v24_us.png.flat",
+        "source": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\src\\main\\res\\drawable-v24\\us.png"
+    },
+    {
         "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable_brandon_headshot_circle_transparent.png.flat",
         "source": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\src\\main\\res\\drawable\\brandon_headshot_circle_transparent.png"
     },
     {
-        "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_app_icon_round.xml.flat",
-        "source": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\src\\main\\res\\mipmap-anydpi-v26\\app_icon_round.xml"
-    },
-    {
         "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
         "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_app_icon_round.xml.flat",
+        "source": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\src\\main\\res\\mipmap-anydpi-v26\\app_icon_round.xml"
     },
     {
         "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -480,12 +484,12 @@
         "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
-        "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
         "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
@@ -794,10 +798,6 @@
     {
         "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable_about_us.png.flat",
-        "source": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\src\\main\\res\\drawable\\about_us.png"
     },
     {
         "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_36dp.png.flat",
@@ -1464,6 +1464,10 @@
         "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
+        "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable_info.png.flat",
+        "source": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\src\\main\\res\\drawable\\info.png"
+    },
+    {
         "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable_output_es_on.png.flat",
         "source": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\src\\main\\res\\drawable\\output_es_on.png"
     },
@@ -1634,6 +1638,10 @@
     {
         "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_title_material.xml.flat",
         "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\layout_activity_vocab_info.xml.flat",
+        "source": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\src\\main\\res\\layout\\activity_vocab_info.xml"
     },
     {
         "merged": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",

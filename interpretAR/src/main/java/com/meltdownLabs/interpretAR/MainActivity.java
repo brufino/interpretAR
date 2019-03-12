@@ -82,6 +82,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void accessVocabInfo(View view) {
+        //do something in response to go
+        Intent intent = new Intent(this, VocabInfoActivity.class);
+        startActivity(intent);
+    }
+
     // controls the CC button
     public void CCbutonClicked(View view) {
         if (CCisOn) { // sets CC on and lang options on. lang starts with english and can toggle to different languages

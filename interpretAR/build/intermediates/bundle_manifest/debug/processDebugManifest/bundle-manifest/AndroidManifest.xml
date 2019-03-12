@@ -59,9 +59,16 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/ic_action_name"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.meltdownLabs.interpretAR.AboutUsActivity"
+            android:configChanges="orientation"
+            android:parentActivityName="com.meltdownLabs.interpretAR.MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.meltdownLabs.interpretAR.VocabInfoActivity"
             android:configChanges="orientation"
             android:parentActivityName="com.meltdownLabs.interpretAR.MainActivity"
             android:screenOrientation="portrait" >
@@ -116,6 +123,11 @@
         <uses-library
             android:name="com.osterhoutgroup.api.ext"
             android:required="false" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.meltdownLabs.interpretAR.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

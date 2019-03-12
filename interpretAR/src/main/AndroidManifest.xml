@@ -19,6 +19,12 @@
         android:screenOrientation="portrait">
     </activity>
 
+    <activity android:name="com.meltdownLabs.interpretAR.VocabInfoActivity"
+        android:parentActivityName="com.meltdownLabs.interpretAR.MainActivity"
+        android:configChanges="orientation"
+        android:screenOrientation="portrait">
+    </activity>
+
     <activity android:name="com.meltdownLabs.interpretAR.MainActivity"
         android:configChanges="orientation"
         android:screenOrientation="portrait">

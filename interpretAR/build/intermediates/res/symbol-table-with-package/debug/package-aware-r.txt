@@ -642,6 +642,7 @@ drawable help
 drawable ic_action_name
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable info
 drawable input_cn_on
 drawable input_de_on
 drawable input_en_off
@@ -682,6 +683,7 @@ drawable output_pt_on
 drawable start_logo
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable us
 id ALT
 id CTRL
 id FUNCTION
@@ -884,6 +886,7 @@ layout activity_about_us
 layout activity_main
 layout activity_translatar
 layout activity_unity_player
+layout activity_vocab_info
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -949,6 +952,7 @@ string milos_name
 string search_menu_title
 string special_thanks
 string status_bar_notification_info_overflow
+string vocab_info_title
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

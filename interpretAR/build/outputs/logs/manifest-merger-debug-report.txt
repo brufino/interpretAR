@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:2:1-75:12
-INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:2:1-75:12
-INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:2:1-75:12
-INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:2:1-75:12
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:2:1-81:12
 MERGED from [:VuforiaWrapper:] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\c72213bdf2122de4adaaa11261b1e56b\AndroidManifest.xml:2:1-32:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\68fd59b26032f4dc919ec430675fc9bd\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\5720df38814ea874c448d562ff78e243\AndroidManifest.xml:2:1-11:12
@@ -33,22 +33,22 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Milos\.gradle\cache
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\86b9f8dcadc2551119702d994739e77c\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\cf9015f884ae149ea057218789ddb2ad\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\486602854892a2bb76ac99cff1b7a432\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:2:1-75:12
-INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:2:1-75:12
-INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:2:1-81:12
 	package
 		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:4:5-43
 		INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:2:1-75:12
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:2:1-81:12
 		INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:2:1-75:12
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:2:1-81:12
 		INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:2:11-69
@@ -75,7 +75,7 @@ MERGED from [com.microsoft.cognitiveservices.speech:client-sdk:1.2.0] C:\Users\M
 	android:name
 		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:7:20-66
 application
-ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:9:3-55:17
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:9:3-61:17
 MERGED from [:VuforiaWrapper:] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\c72213bdf2122de4adaaa11261b1e56b\AndroidManifest.xml:19:5-30:19
 MERGED from [:VuforiaWrapper:] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\c72213bdf2122de4adaaa11261b1e56b\AndroidManifest.xml:19:5-30:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\5720df38814ea874c448d562ff78e243\AndroidManifest.xml:9:5-20
@@ -116,126 +116,136 @@ ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpre
 		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:18:9-44
 	android:name
 		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:16:15-74
-activity#com.meltdownLabs.interpretAR.MainActivity
-ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:22:5-32:16
+activity#com.meltdownLabs.interpretAR.VocabInfoActivity
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:22:5-26:16
 	android:screenOrientation
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:24:9-45
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:25:9-45
+	android:parentActivityName
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:23:9-79
 	android:configChanges
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:23:9-44
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:22:15-71
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:22:15-76
+activity#com.meltdownLabs.interpretAR.MainActivity
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:28:5-38:16
+	android:screenOrientation
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:30:9-45
+	android:configChanges
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:29:9-44
+	android:name
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:28:15-71
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
-ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:26:7-30:23
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:32:7-36:23
 action#android.intent.action.MAIN
-ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:27:9-61
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:33:9-61
 	android:name
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:27:17-58
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:33:17-58
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:28:9-69
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:34:9-69
 	android:name
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:28:19-66
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:34:19-66
 category#android.intent.category.LEANBACK_LAUNCHER
-ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:29:9-78
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:35:9-78
 	android:name
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:29:19-75
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:35:19-75
 activity#com.meltdownLabs.interpretAR.TranslatarActivity
-ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:34:5-42:16
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:40:5-48:16
 	android:parentActivityName
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:38:9-79
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:44:9-79
 	android:label
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:37:9-41
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:43:9-41
 	android:exported
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:36:9-32
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:42:9-32
 	android:configChanges
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:35:9-55
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:41:9-55
 	android:theme
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:39:9-46
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:45:9-46
 	android:name
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:34:15-77
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:40:15-77
 activity#com.meltdownLabs.interpretAR.UnityPlayerActivity
-ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:43:5-49:16
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:49:5-55:16
 	android:parentActivityName
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:46:9-79
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:52:9-79
 	android:exported
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:45:9-32
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:51:9-32
 	android:configChanges
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:44:9-55
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:50:9-55
 	android:theme
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:47:9-46
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:53:9-46
 	android:name
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:43:15-78
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:49:15-78
 meta-data#unity.build-id
-ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:52:5-101
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:58:5-101
 	android:value
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:52:46-98
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:58:46-98
 	android:name
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:52:16-45
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:58:16-45
 meta-data#unity.splash-mode
-ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:53:5-69
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:59:5-69
 	android:value
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:53:49-66
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:59:49-66
 	android:name
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:53:16-48
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:59:16-48
 meta-data#unity.splash-enable
-ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:54:5-74
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:60:5-74
 	android:value
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:54:51-71
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:60:51-71
 	android:name
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:54:16-50
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:60:16-50
 uses-feature#0x00020000
-ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:58:3-52
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:64:3-52
 	android:glEsVersion
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:58:17-49
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:64:17-49
 uses-feature#android.hardware.camera.autofocus
-ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:59:3-93
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:65:3-93
 	android:required
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:59:66-90
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:65:66-90
 	android:name
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:59:17-65
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:65:17-65
 uses-feature#android.hardware.camera.front
-ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:60:3-89
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:66:3-89
 	android:required
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:60:62-86
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:66:62-86
 	android:name
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:60:17-61
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:66:17-61
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:61:3-106
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:67:3-106
 MERGED from [:VuforiaWrapper:] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\c72213bdf2122de4adaaa11261b1e56b\AndroidManifest.xml:17:5-81
 MERGED from [:VuforiaWrapper:] C:\Users\Milos\.gradle\caches\transforms-1\files-1.1\VuforiaWrapper.aar\c72213bdf2122de4adaaa11261b1e56b\AndroidManifest.xml:17:5-81
 	android:maxSdkVersion
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:61:77-103
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:67:77-103
 	android:name
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:61:20-76
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:67:20-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:62:3-105
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:68:3-105
 	android:maxSdkVersion
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:62:76-102
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:68:76-102
 	android:name
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:62:20-75
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:68:20-75
 uses-feature#android.hardware.touchscreen
-ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:63:3-88
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:69:3-88
 	android:required
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:63:61-85
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:69:61-85
 	android:name
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:63:17-60
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:69:17-60
 uses-feature#android.hardware.touchscreen.multitouch
-ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:64:3-99
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:70:3-99
 	android:required
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:64:72-96
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:70:72-96
 	android:name
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:64:17-71
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:70:17-71
 uses-feature#android.hardware.touchscreen.multitouch.distinct
-ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:65:3-108
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:71:3-108
 	android:required
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:65:81-105
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:71:81-105
 	android:name
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:65:17-80
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:71:17-80
 uses-feature#android.software.leanback
-ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:72:3-73:34
+ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:78:3-79:34
 	android:required
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:73:7-31
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:79:7-31
 	android:name
-		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:72:17-57
+		ADDED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml:78:17-57
 uses-sdk
 INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\src\main\AndroidManifest.xml
