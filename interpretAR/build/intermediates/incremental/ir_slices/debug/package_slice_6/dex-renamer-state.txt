@@ -1,4 +1,4 @@
-#Wed Mar 06 20:03:37 EST 2019
-base.0=C\:\\Users\\brand_000\\Desktop\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\transforms\\dexMerger\\debug\\6
+#Tue Mar 12 17:25:33 EDT 2019
+base.0=C\:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\transforms\\dexMerger\\debug\\6
 path.0=classes.dex
 renamed.0=classes.dex
