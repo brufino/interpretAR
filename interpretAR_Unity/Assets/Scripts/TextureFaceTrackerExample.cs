@@ -29,6 +29,7 @@ public class TextureFaceTrackerExample : MonoBehaviour
     private Animator anim;
     protected string word = "right";
     public string[] Keywords_array;
+    private int facecount = 0;
 
 
     /// <summary>
@@ -243,7 +244,7 @@ public class TextureFaceTrackerExample : MonoBehaviour
     ////user stops recording speech
     public void OnEndOfSpeech()
     {
-        resultText.text = "Exit app and try again";
+        //resultText.text = "Exit app and try again";
         if (SpeechRecognizer.IsRecording())
         {
             SpeechRecognizer.StopIfRecording();
@@ -448,12 +449,22 @@ public class TextureFaceTrackerExample : MonoBehaviour
             if (faceTracker.track(grayMat, faceTrackerParams))
             {
                 GameObject.Find("(onehand)").transform.localScale = new Vector3(0.078125f, 0.1041667f, 50);
+                facecount = 0;
                 //uncomment below for rectangle around face
                 //faceTracker.draw(rgbaMat, new Scalar(255, 0, 0, 255), new Scalar(0, 255, 0, 255));
             }
             else
             {
-                GameObject.Find("(onehand)").transform.localScale = new Vector3(0, 0, 0); //make hands to zero scale until a face is recognized
+                //facecount prevents flickering of hand from poor face recognition
+                if (facecount > 15)
+                {
+                    GameObject.Find("(onehand)").transform.localScale = new Vector3(0, 0, 0); //make hands to zero scale until a face is recognized
+                    facecount++;
+                }
+                else
+                {
+                    facecount++;
+                }
             }
 
             Imgproc.putText (rgbaMat, "'Tap' or 'Space Key' to Reset", new Point (5, rgbaMat.rows () - 5), Imgproc.FONT_HERSHEY_SIMPLEX, 0.8, new Scalar (255, 255, 255, 255), 2, Imgproc.LINE_AA, false);                                        

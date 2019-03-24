@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Mar 22 01:21:59 EDT 2019
+#Sun Mar 24 17:59:00 EDT 2019
 2.path=text/scenetext01.jpg
 14.set=ASSET
 107.baseType=DIRECTORY
@@ -83,7 +83,7 @@
 135.set=NATIVE_RESOURCE
 135.base=C\:\\Users\\brand_000\\Desktop\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 105.path=dnn/setup_dnn_module.pdf
-187.base=C\:\\Users\\brand_000\\Desktop\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+187.base=C\:\\Users\\brand_000\\Desktop\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 110.base=C\:\\Users\\brand_000\\Desktop\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 157.path=bin/Data/Managed/mscorlib.dll
 162.base=C\:\\Users\\brand_000\\Desktop\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
@@ -149,7 +149,7 @@
 145.set=ASSET
 136.base=C\:\\Users\\brand_000\\Desktop\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 106.path=bin/Data/Managed/UnityEngine.TLSModule.dll
-188.base=C\:\\Users\\brand_000\\Desktop\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+188.base=C\:\\Users\\brand_000\\Desktop\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 111.base=C\:\\Users\\brand_000\\Desktop\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 151.baseType=DIRECTORY
 31.baseType=DIRECTORY
@@ -298,7 +298,7 @@
 126.set=ASSET
 140.base=C\:\\Users\\brand_000\\Desktop\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 97.baseType=DIRECTORY
-187.path=lib/armeabi-v7a/libVuforia.so
+187.path=calibration_images/left11.jpg
 110.path=bin/Data/sharedassets0.assets
 162.path=bin/Data/Managed/UnityEngine.TimelineModule.dll
 38.base=C\:\\Users\\brand_000\\Desktop\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
@@ -318,7 +318,7 @@
 100.base=C\:\\Users\\brand_000\\Desktop\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 140.set=ASSET
 147.path=bin/Data/Managed/System.ServiceModel.Internals.dll
-187.set=NATIVE_RESOURCE
+187.set=ASSET
 127.baseType=DIRECTORY
 152.base=C\:\\Users\\brand_000\\Desktop\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 122.path=bin/Data/Managed/System.Transactions.dll
@@ -361,7 +361,7 @@
 136.path=bin/Data/Managed/UnityEngine.AIModule.dll
 136.set=ASSET
 141.base=C\:\\Users\\brand_000\\Desktop\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
-188.path=calibration_images/left11.jpg
+188.path=lib/armeabi-v7a/libVuforia.so
 149.baseType=DIRECTORY
 111.path=lib/armeabi-v7a/libunity.so
 29.baseType=DIRECTORY
@@ -590,7 +590,7 @@ count=192
 153.path=bin/Data/Managed/System.IO.Compression.FileSystem.dll
 141.set=ASSET
 120.baseType=DIRECTORY
-188.set=ASSET
+188.set=NATIVE_RESOURCE
 180.path=bin/Data/Managed/UnityEngine.ImageConversionModule.dll
 187.baseType=DIRECTORY
 67.baseType=DIRECTORY

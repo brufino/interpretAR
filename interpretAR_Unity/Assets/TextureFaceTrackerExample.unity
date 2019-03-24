@@ -945,8 +945,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 52}
-  m_SizeDelta: {x: -44, y: -169.0705}
+  m_AnchoredPosition: {x: 0, y: 35.133812}
+  m_SizeDelta: {x: -44, y: -130.26762}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1362053823
 GameObject:
@@ -1039,8 +1039,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1362053823}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 75, y: 14, z: 510}
-  m_LocalScale: {x: 640, y: 280, z: 1}
+  m_LocalPosition: {x: 73, y: 15, z: 1052}
+  m_LocalScale: {x: 800, y: 400, z: 1}
   m_Children:
   - {fileID: 355127043}
   m_Father: {fileID: 0}
@@ -1073,8 +1073,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _requestedDeviceName: 
-  _requestedWidth: 640
-  _requestedHeight: 480
+  _requestedWidth: 800
+  _requestedHeight: 400
   _requestedIsFrontFacing: 0
   _requestedFPS: 30
   _rotate90Degree: 0
@@ -1445,15 +1445,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: de4e640d4b31f7847a5ab95d1e2a5bc9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0765625
+      value: -0.05
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: de4e640d4b31f7847a5ab95d1e2a5bc9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.24583352
+      value: -0.14
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: de4e640d4b31f7847a5ab95d1e2a5bc9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -29
+      value: -123
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: de4e640d4b31f7847a5ab95d1e2a5bc9, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1489,11 +1489,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: de4e640d4b31f7847a5ab95d1e2a5bc9, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.078125
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: de4e640d4b31f7847a5ab95d1e2a5bc9, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.10416672
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: de4e640d4b31f7847a5ab95d1e2a5bc9, type: 3}
       propertyPath: m_LocalScale.z
@@ -1925,7 +1925,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0.019607844}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -1939,7 +1939,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 52
+  field of view: 25
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1965,7 +1965,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2068931227}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 71, y: 14, z: 223}
+  m_LocalPosition: {x: 73, y: 9, z: 223}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

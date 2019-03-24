@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/brand_000/Desktop/4BI6_Capstone_Project/interpretAR_Unity/AndroidAttempts/beta2.0
+C:/Users/brand_000/Desktop/4BI6_Capstone_Project/interpretAR_Unity/AndroidAttempts/beta
 SceneListBegin?
 Assets/TextureFaceTrackerExample.unity
 SceneListEnd?
