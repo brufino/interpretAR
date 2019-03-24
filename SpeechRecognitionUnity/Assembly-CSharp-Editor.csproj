@@ -62,6 +62,8 @@
   <ItemGroup>
     <Compile Include="Assets\Editor\KKSpeechRecognizer\KKAddSpeechFrameworkOniOS.cs" />
     <Compile Include="Assets\Editor\KKSpeechRecognizer\KKSetSpeechRecognitionPermissionsOniOS.cs" />
+    <Compile Include="Assets\OpenCVForUnity\Editor\OpenCVForUnityIOSBuildPostprocessor.cs" />
+    <Compile Include="Assets\OpenCVForUnity\Editor\OpenCVForUnityMenuItem.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/brand_000/Desktop/4BI6_Capstone_Project/SpeechRecognitionUnity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

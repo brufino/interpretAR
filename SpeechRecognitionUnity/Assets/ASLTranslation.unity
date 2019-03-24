@@ -654,6 +654,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: (onehand)
       objectReference: {fileID: 0}
+    - target: {fileID: 100046, guid: 795af8cedb4b2dc40a88df976e90beb3, type: 3}
+      propertyPath: m_TagString
+      value: (onehand)
+      objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 795af8cedb4b2dc40a88df976e90beb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -126

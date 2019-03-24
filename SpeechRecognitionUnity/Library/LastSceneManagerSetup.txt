@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/KKSpeechRecognizer/Example/SetLanguage.unity
+- path: Assets/ASLTranslation.unity
   isLoaded: 1
   isActive: 1

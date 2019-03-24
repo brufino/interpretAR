@@ -96,6 +96,7 @@ public class OneHand : MonoBehaviour{
         {
             resultText.text = "Sorry, but this device doesn't support speech recognition";
             //startRecordingButton.enabled = false;
+            GameObject.FindGameObjectWithTag("(onehand)").GetComponent<Animator>().CrossFade("V", -1);
         }
 
     }

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Milos\\Desktop\\coding_projects\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
+            "outputFile": "C:\\Users\\brand_000\\Desktop\\4BI6_Capstone_Project\\interpretAR\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Milos\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68fd59b26032f4dc919ec430675fc9bd\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\brand_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\3d35b7554dc81d593563836892cdbe0f\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
