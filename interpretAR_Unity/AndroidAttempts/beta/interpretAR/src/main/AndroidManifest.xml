@@ -22,7 +22,7 @@
     <activity android:name="com.meltdownLabs.interpretAR.UnityPlayerActivity" android:configChanges="orientation|screenSize" android:exported="true" android:parentActivityName="com.meltdownLabs.interpretAR.MainActivity" android:theme="@style/generalnotitle">
       <!-- configure this activity to use landscape orientation -->
     </activity>
-    <meta-data android:name="unity.build-id" android:value="b952a9bc-37f3-4a02-8601-efb2864c48a0" />
+    <meta-data android:name="unity.build-id" android:value="05cb5672-15ab-4b56-99e1-865a81d4e7fe" />
     <meta-data android:name="unity.splash-mode" android:value="0" />
     <meta-data android:name="unity.splash-enable" android:value="True" />
   </application>

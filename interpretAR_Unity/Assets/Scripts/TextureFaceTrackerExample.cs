@@ -90,7 +90,7 @@ public class TextureFaceTrackerExample : MonoBehaviour
     void Start ()
     {
         //anim = GetComponent<Animator>();
-        //GameObject.Find("why(onehand)").transform.localScale = new Vector3(0, 0, 0); //initialize hands to zero scale until a face is recognized
+        //GameObject.Find("twohand)").transform.localScale = new Vector3(0, 0, 0); //initialize hands to zero scale until a face is recognized
         //speechrec
         if (SpeechRecognizer.ExistsOnDevice())
         {
@@ -100,8 +100,8 @@ public class TextureFaceTrackerExample : MonoBehaviour
         {
             resultText.text = "Sorry, but this device doesn't support speech recognition";
             //anim.transform.localScale = new Vector3(0, 0, 0);
-            //GameObject hand = GameObject.FindGameObjectWithTag("why(onehand)");
-            //GameObject.Find("why(onehand)").transform.localScale = new Vector3(0, 0, 0);
+            //GameObject hand = GameObject.FindGameObjectWithTag("(twohand)");
+            //GameObject.Find("(twohand)").transform.localScale = new Vector3(0, 0, 0);
             //startRecordingButton.enabled = false;
         }
 
@@ -181,7 +181,7 @@ public class TextureFaceTrackerExample : MonoBehaviour
         {
             resultText.text = "Sorry, but this device doesn't support speech recognition";
             Debug.Log("Next Command is crossfade from run function");
-            //GameObject.FindGameObjectWithTag("why(onehand)").GetComponent<Animator>().CrossFade("V", -1);
+            //GameObject.FindGameObjectWithTag("twohand)").GetComponent<Animator>().CrossFade("V", -1);
             //startRecordingButton.enabled = false;
         }
     }
@@ -301,23 +301,54 @@ public class TextureFaceTrackerExample : MonoBehaviour
     void ActionPerformer(string command)
     {
 
-        if (command.Contains("why"))
+        if (command.Contains("apple"))
         {
-            GameObject.FindGameObjectWithTag("why(onehand)").GetComponent<Animator>().CrossFade("why", -1);
-            //anim.CrossFade("why", 1);
-
+            GameObject.FindGameObjectWithTag("(twohand)").GetComponent<Animator>().CrossFade("apple", -1);
         }
 
-        if (command.Contains("letter v"))
+        if (command.Contains("boy"))
         {
-            GameObject.FindGameObjectWithTag("why(onehand)").GetComponent<Animator>().CrossFade("V", -1);
-            //anim.CrossFade("V", 1);
+            GameObject.FindGameObjectWithTag("(twohand)").GetComponent<Animator>().CrossFade("boy", -1);
+        }
+   
+        if (command.Contains("cat"))
+        {
+            GameObject.FindGameObjectWithTag("(twohand)").GetComponent<Animator>().CrossFade("cat", -1);
         }
 
-        if (command.Contains("hello"))
+        if (command.Contains("dog"))
         {
-            GameObject.FindGameObjectWithTag("why(onehand)").GetComponent<Animator>().CrossFade("X", -1);
-            //anim.CrossFade("X", 1);
+            GameObject.FindGameObjectWithTag("(twohand)").GetComponent<Animator>().CrossFade("dog", -1);
+        }
+
+        if (command.Contains("eat"))
+        {
+            GameObject.FindGameObjectWithTag("(twohand)").GetComponent<Animator>().CrossFade("eat", -1);
+        }
+
+        if (command.Contains("how"))
+        {
+            GameObject.FindGameObjectWithTag("(twohand)").GetComponent<Animator>().CrossFade("how", -1);
+        }
+
+        if (command.Contains("okay"))
+        {
+            GameObject.FindGameObjectWithTag("(twohand)").GetComponent<Animator>().CrossFade("ok", -1);
+        }
+
+        if (command.Contains("what"))
+        {
+            GameObject.FindGameObjectWithTag("(twohand)").GetComponent<Animator>().CrossFade("what", -1);
+        }
+
+        if (command.Contains("when"))
+        {
+            GameObject.FindGameObjectWithTag("(twohand)").GetComponent<Animator>().CrossFade("when", -1);
+        }
+
+        if (command.Contains("who"))
+        {
+            GameObject.FindGameObjectWithTag("(twohand)").GetComponent<Animator>().CrossFade("who", -1);
         }
         //resultText.text = "Say something :-)";
         //SpeechRecognizer.StartRecording(true);
@@ -448,7 +479,7 @@ public class TextureFaceTrackerExample : MonoBehaviour
             //track face points.if face points <= 0, always return false.
             if (faceTracker.track(grayMat, faceTrackerParams))
             {
-                GameObject.Find("(onehand)").transform.localScale = new Vector3(0.078125f, 0.1041667f, 50);
+                GameObject.Find("(twohand)").transform.localScale = new Vector3(0.078125f, 0.1041667f, 50);
                 facecount = 0;
                 //uncomment below for rectangle around face
                 //faceTracker.draw(rgbaMat, new Scalar(255, 0, 0, 255), new Scalar(0, 255, 0, 255));
@@ -458,7 +489,7 @@ public class TextureFaceTrackerExample : MonoBehaviour
                 //facecount prevents flickering of hand from poor face recognition
                 if (facecount > 15)
                 {
-                    GameObject.Find("(onehand)").transform.localScale = new Vector3(0, 0, 0); //make hands to zero scale until a face is recognized
+                    GameObject.Find("(twohand)").transform.localScale = new Vector3(0, 0, 0); //make hands to zero scale until a face is recognized
                     facecount++;
                 }
                 else

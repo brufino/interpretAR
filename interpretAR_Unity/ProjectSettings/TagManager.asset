@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - why(onehand)
+  - (twohand)
   layers:
   - Default
   - TransparentFX
