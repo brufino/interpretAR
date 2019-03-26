@@ -5,7 +5,7 @@ This project uses Microsoft Cognitive Services Speech SDK, Blender Animations, U
 ## News
 
 * interpretAR beta version complete! Download current version for multi-language speech to text integrated with your mobile camera
-* ASL Voice translation functional! Take a gander at the vocab page to see all the words you can translate in ASL
+* ASL voice translation functional! Take a gander at the vocab page to see all the words you can translate in ASL
 * Vocabularly growth coming soon
   
   Demo version 1.1 release date: March 28th 2019. 
