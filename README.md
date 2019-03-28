@@ -1,4 +1,4 @@
-# Repository for interpretAR
+# Repository for interpretAR <img src="logo.png" alt="drawing" width="40" height="40"/>
 
 This project uses Microsoft Cognitive Services Speech SDK, Blender Animations, Unity Gaming Engine, OpenCV, and Android Studio to create an application that translates speech input into American Sign Language (ASL) real time through an Augmented Reality (AR) approach.
 
@@ -47,6 +47,7 @@ We tested the project with Brandon's Samsung S7 Edge with Android version 8.0.0.
 
 ## Still curious? Visit our website for more
 * [interpretAR Website](https://brandonrufino.com/interpretar/)
+![interpretAR Poster](interpretar_poster.png)
 
 ## References
 * [Blender Hand Model](https://sketchfab.com/3d-models/hand-low-poly-d6c802a74a174c8c805deb20186d1877?fbclid=IwAR0rjTAgqOO27wYq6uFCOKXr_hViTXNGkexEA96wHWuEGJ9F1XQuUKHoGDY)
