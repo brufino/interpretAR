@@ -47,6 +47,7 @@ We tested the project with Brandon's Samsung S7 Edge with Android version 8.0.0.
 
 ## Still curious? Visit our website for more
 * [interpretAR Website](https://brandonrufino.com/interpretar/)
+
 ![interpretAR Poster](interpretar_poster.png)
 
 ## References
