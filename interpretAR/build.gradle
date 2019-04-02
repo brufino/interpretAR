@@ -50,8 +50,8 @@ android {
         ndk {
             abiFilters 'armeabi-v7a', 'x86'
         }
-        versionCode 1
-        versionName '0.1'
+        versionCode 22
+        versionName '1.1.9'
     }
 
     lintOptions {
@@ -59,7 +59,7 @@ android {
     }
 
     aaptOptions {
-        noCompress = ['.unity3d', '.ress', '.resource', '.obb']
+        noCompress = ['.unity3d', '.ress', '.resource', '.obb', '768x576_mjpeg.mjpeg', 'haarcascade_frontalface_alt.xml', 'lbpcascade_frontalface.xml', 'pca_test1.jpg', 'tracker_model.json', 'calibration_images/left01.jpg', 'calibration_images/left02.jpg', 'calibration_images/left03.jpg', 'calibration_images/left04.jpg', 'calibration_images/left05.jpg', 'calibration_images/left06.jpg', 'calibration_images/left07.jpg', 'calibration_images/left08.jpg', 'calibration_images/left09.jpg', 'calibration_images/left11.jpg', 'calibration_images/left12.jpg', 'calibration_images/left13.jpg', 'calibration_images/left14.jpg', 'dnn/setup_dnn_module.pdf', 'facemark/setup_face_module.pdf', 'facerec/facerec_0.bmp', 'facerec/facerec_1.bmp', 'facerec/facerec_sample.bmp', 'text/ocrhmm_knn_model_data.xml.gz', 'text/ocrhmm_transitions_table.xml', 'text/scenetext01.jpg', 'text/test_text.jpg', 'text/trained_classifiernm1.xml', 'text/trained_classifiernm2.xml', 'text/trained_classifier_ergrouping.xml']
     }
 
     buildTypes {

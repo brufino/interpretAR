@@ -5,6 +5,7 @@
   <uses-permission android:name="android.permission.CAMERA" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.RECORD_AUDIO" />
+  <supports-screens android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" android:anyDensity="true" />
 
   <application android:allowBackup="true"
       android:icon="@drawable/ic_action_name"
@@ -36,7 +37,16 @@
       </intent-filter>
 
     </activity>
+    <!--<activity android:name="com.meltdownLabs.interpretAR.UnityPlayerActivity"-->
+        <!--android:screenOrientation="reverseLandscape"-->
+        <!--android:launchMode="singleTask"-->
+        <!--android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"-->
+        <!--android:hardwareAccelerated="false"-->
+        <!--android:parentActivityName="com.meltdownLabs.interpretAR.MainActivity"-->
+        <!--&gt;-->
 
+      <!--<meta-data android:name="unityplayer.UnityActivity" android:value="true" />-->
+    <!--</activity>-->
     <activity android:name="com.meltdownLabs.interpretAR.TranslatarActivity"
         android:configChanges="orientation|screenSize"
         android:exported="true"
@@ -47,6 +57,7 @@
                android:screenOrientation="landscape" -->
     </activity>
     <activity android:name="com.meltdownLabs.interpretAR.UnityPlayerActivity"
+        android:screenOrientation="reverseLandscape"
         android:configChanges="orientation|screenSize"
         android:exported="true"
         android:parentActivityName="com.meltdownLabs.interpretAR.MainActivity"
@@ -55,7 +66,7 @@
     </activity>
 
 
-    <meta-data android:name="unity.build-id" android:value="05cb5672-15ab-4b56-99e1-865a81d4e7fe" />
+    <meta-data android:name="unity.build-id" android:value="0a5b27d7-b477-43e1-8d43-a71d919a88c7" />
     <meta-data android:name="unity.splash-mode" android:value="0" />
     <meta-data android:name="unity.splash-enable" android:value="True" />
   </application>

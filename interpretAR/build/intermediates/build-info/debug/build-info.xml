@@ -3,10 +3,10 @@
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="26"
     build-mode="FULL"
-    density="420dpi"
+    density="xxhdpi"
     format="10"
     plugin-version="3.3.2"
-    timestamp="1552428506997"
+    timestamp="1554127831677"
     token="-6528329228580694698"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -65,7 +65,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1552428506997"
+        timestamp="1554127831677"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Milos\Desktop\coding_projects\4BI6_Capstone_Project\interpretAR\build\intermediates\resources\instant-run\debug\resources-debug.apk"

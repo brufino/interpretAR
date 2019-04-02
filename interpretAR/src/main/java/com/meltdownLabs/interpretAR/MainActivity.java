@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
 
     //INITIALIZING  BUTTONS
     boolean ASLisOn = false;
-    boolean CCisOn = true;
     boolean HeadsetIsOn = true;
 
     int CCicon;
@@ -61,17 +60,20 @@ public class MainActivity extends AppCompatActivity {
 
         //initialize ASL on
         featureASLicon.setImageResource(R.drawable.asl_on);
+        featureCCicon.setImageResource(R.drawable.cc_on);
+        langINicon.setImageResource(R.drawable.input_en_on);
+        langOUTicon.setImageResource(R.drawable.output_en_on);
     }
 
     public void accessCamera(View view) {
         //do something in response to go
-        if(!CCisOn){
+        if(ASLisOn){
             Intent intent = new Intent(this, TranslatarActivity.class);
             intent.putExtra("inputlang", inputLanguage); // pass input speech
             intent.putExtra("outputlang", outputLanguage); // pass output speech
             startActivity(intent);
         }
-        else if(!ASLisOn){
+        else{
             Intent intent = new Intent(this, UnityPlayerActivity.class);
             startActivity(intent);}
         }
@@ -88,42 +90,35 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    // controls the CC button
+    // controls the CC button -> reset to CC/EN/EN
     public void CCbutonClicked(View view) {
-        if (CCisOn) { // sets CC on and lang options on. lang starts with english and can toggle to different languages
-            CCisOn = false;
-            CCicon = R.drawable.cc_on;
-            inputLangIcon = R.drawable.input_en_on;
-            outputLangIcon = R.drawable.output_en_on;
-            ASLicon= R.drawable.asl_off;
-            ASLisOn= true;
-            langINcounter=1;
-            langOUTcounter=1;
-            inputLanguage="en-US";
-            outputLanguage="en-US";
-        } else { //sets CC off, and language off (with english as default off logo)
-            CCisOn = true;
-            CCicon = R.drawable.cc_off;
-            outputLangIcon = R.drawable.output_en_off;
-            inputLangIcon = R.drawable.input_en_off;
-            ASLicon= R.drawable.asl_on;
-            ASLisOn= false;
-        }
+        CCicon = R.drawable.cc_on;
+        outputLangIcon = R.drawable.output_en_on;
+        inputLangIcon = R.drawable.input_en_on;
+        ASLicon= R.drawable.asl_off;
+        ASLisOn = true;
+        langINcounter=1;
+        langOUTcounter=1;
+        inputLanguage="en-US";
+        outputLanguage="en-US";
         featureCCicon.setImageResource(CCicon);
         langINicon.setImageResource(inputLangIcon);
         langOUTicon.setImageResource(outputLangIcon);
         featureASLicon.setImageResource(ASLicon);
     }
 
-    // controls the ASL button
+    // controls the ASL button-> CC/EN/EN or ASL/CC/EN/EN
     public void ASLbuttonClicked(View view) {
         if (ASLisOn) {
             ASLisOn = false;
             ASLicon = R.drawable.asl_on;
-            CCicon = R.drawable.cc_off;
-            inputLangIcon = R.drawable.input_en_off;
-            outputLangIcon = R.drawable.output_en_off;
-            CCisOn= true;
+            CCicon = R.drawable.cc_on;
+            inputLangIcon = R.drawable.input_en_on;
+            outputLangIcon = R.drawable.output_en_on;
+            langINcounter=1;
+            langOUTcounter=1;
+            inputLanguage="en-US";
+            outputLanguage="en-US";
         } else { //if off CC goes on
             ASLisOn = true;
             ASLicon = R.drawable.asl_off;
@@ -134,7 +129,6 @@ public class MainActivity extends AppCompatActivity {
             langOUTcounter=1;
             inputLanguage="en-US";
             outputLanguage="en-US";
-            CCisOn=false;
         }
         featureASLicon.setImageResource(ASLicon);
         featureCCicon.setImageResource(CCicon);
