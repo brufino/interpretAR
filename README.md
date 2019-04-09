@@ -4,11 +4,11 @@ This project uses Microsoft Cognitive Services Speech SDK, Blender Animations, U
 
 ## News
 
-* interpretAR beta version complete! Download current version for multi-language speech to text integrated with your mobile camera
+* interpretAR Version 1.0 COMPLETE! Download current version for multi-language speech to text integrated with your mobile camera
 * ASL voice translation functional! Take a gander at the vocab page to see all the words you can translate in ASL
-* Vocabularly growth coming soon
+* Over 100 words of sign language and growing
   
-  Demo version 1.1 release date: March 28th 2019. 
+  Demo version 1.0 release date: April 9th 2019 -DONE
 
 ## Features
 
@@ -49,6 +49,9 @@ We tested the project with Brandon's Samsung S7 Edge with Android version 8.0.0.
 * [interpretAR Website](https://brandonrufino.com/interpretar/)
 
 ![interpretAR Poster](interpretar_poster.png)
+
+## Check out our demo on YouTube:
+* [interpretAR Demo - ECE Expo 2019](https://www.youtube.com/watch?v=o11_6Vo2MHo)
 
 ## References
 * [Blender Hand Model](https://sketchfab.com/3d-models/hand-low-poly-d6c802a74a174c8c805deb20186d1877?fbclid=IwAR0rjTAgqOO27wYq6uFCOKXr_hViTXNGkexEA96wHWuEGJ9F1XQuUKHoGDY)
