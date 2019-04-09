@@ -2,6 +2,8 @@
 
 This project uses Microsoft Cognitive Services Speech SDK, Blender Animations, Unity Gaming Engine, OpenCV, and Android Studio to create an application that translates speech input into American Sign Language (ASL) real time through an Augmented Reality (AR) approach.
 
+_interpretAR won 'Most Innovative Design' at McMaster's 2019 ECE Expo_
+
 ## News
 
 * interpretAR Version 1.0 COMPLETE! Download current version for multi-language speech to text integrated with your mobile camera
