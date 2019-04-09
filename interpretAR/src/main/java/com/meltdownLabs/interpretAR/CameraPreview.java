@@ -81,7 +81,6 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
                 break;
             }
         }
-        // TODO: don't hardcode cameraId '0' here... figure this out later.
         setCameraDisplayOrientation(mContext, 0, mCamera);
 
         // Start preview with new settings.

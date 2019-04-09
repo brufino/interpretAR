@@ -36,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
     private ImageView featureCCicon;
     private ImageView featureASLicon;
     private ImageView featureHeadsetIcon;
-    private String inputLanguage="";
-    private String outputLanguage="";
+    private String inputLanguage = "";
+    private String outputLanguage = "";
 
 
     @Override
@@ -52,10 +52,10 @@ public class MainActivity extends AppCompatActivity {
         recognizedTextView = findViewById(R.id.statement);
 
 
-        langINicon=  findViewById(R.id.langINicon);
-        langOUTicon=  findViewById(R.id.langOUTicon);
-        featureCCicon= findViewById(R.id.featureCCicon);
-        featureASLicon= findViewById(R.id.featureASLicon);
+        langINicon = findViewById(R.id.langINicon);
+        langOUTicon = findViewById(R.id.langOUTicon);
+        featureCCicon = findViewById(R.id.featureCCicon);
+        featureASLicon = findViewById(R.id.featureASLicon);
         featureHeadsetIcon = findViewById(R.id.featureHeadsetIcon);
 
         //initialize ASL on
@@ -67,16 +67,16 @@ public class MainActivity extends AppCompatActivity {
 
     public void accessCamera(View view) {
         //do something in response to go
-        if(ASLisOn){
+        if (ASLisOn) {
             Intent intent = new Intent(this, TranslatarActivity.class);
             intent.putExtra("inputlang", inputLanguage); // pass input speech
             intent.putExtra("outputlang", outputLanguage); // pass output speech
             startActivity(intent);
-        }
-        else{
+        } else {
             Intent intent = new Intent(this, UnityPlayerActivity.class);
-            startActivity(intent);}
+            startActivity(intent);
         }
+    }
 
     public void accessAboutUs(View view) {
         //do something in response to go
@@ -95,12 +95,12 @@ public class MainActivity extends AppCompatActivity {
         CCicon = R.drawable.cc_on;
         outputLangIcon = R.drawable.output_en_on;
         inputLangIcon = R.drawable.input_en_on;
-        ASLicon= R.drawable.asl_off;
+        ASLicon = R.drawable.asl_off;
         ASLisOn = true;
-        langINcounter=1;
-        langOUTcounter=1;
-        inputLanguage="en-US";
-        outputLanguage="en-US";
+        langINcounter = 1;
+        langOUTcounter = 1;
+        inputLanguage = "en-US";
+        outputLanguage = "en-US";
         featureCCicon.setImageResource(CCicon);
         langINicon.setImageResource(inputLangIcon);
         langOUTicon.setImageResource(outputLangIcon);
@@ -115,20 +115,20 @@ public class MainActivity extends AppCompatActivity {
             CCicon = R.drawable.cc_on;
             inputLangIcon = R.drawable.input_en_on;
             outputLangIcon = R.drawable.output_en_on;
-            langINcounter=1;
-            langOUTcounter=1;
-            inputLanguage="en-US";
-            outputLanguage="en-US";
+            langINcounter = 1;
+            langOUTcounter = 1;
+            inputLanguage = "en-US";
+            outputLanguage = "en-US";
         } else { //if off CC goes on
             ASLisOn = true;
             ASLicon = R.drawable.asl_off;
             CCicon = R.drawable.cc_on;
             inputLangIcon = R.drawable.input_en_on;
             outputLangIcon = R.drawable.output_en_on;
-            langINcounter=1;
-            langOUTcounter=1;
-            inputLanguage="en-US";
-            outputLanguage="en-US";
+            langINcounter = 1;
+            langOUTcounter = 1;
+            inputLanguage = "en-US";
+            outputLanguage = "en-US";
         }
         featureASLicon.setImageResource(ASLicon);
         featureCCicon.setImageResource(CCicon);
@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
     public void HeadsetButtonClicked(View view) {
         if (HeadsetIsOn) {
             HeadsetIsOn = false;
-            HeadsetIcon = R.drawable.headset_on;
+            HeadsetIcon = R.drawable.headset_off;
         } else {
             HeadsetIsOn = true;
             HeadsetIcon = R.drawable.headset_off;
@@ -155,42 +155,39 @@ public class MainActivity extends AppCompatActivity {
         if (ASLisOn) {
             if (langINcounter == 1) {
                 inputLangIcon = R.drawable.input_fr_on; //make this french icon
-                inputLanguage="fr-CA"; //CANADIAN FRENCH
+                inputLanguage = "fr-CA"; //CANADIAN FRENCH
                 langINcounter++;
             } else if (langINcounter == 2) {
                 inputLangIcon = R.drawable.input_es_on; //make this spanish icon
-                inputLanguage="es-ES"; //SPANISH
+                inputLanguage = "es-ES"; //SPANISH
                 langINcounter++;
             } else if (langINcounter == 3) {
                 inputLangIcon = R.drawable.input_de_on; //make this german icon
-                inputLanguage="de-DE"; //GERMAN
+                inputLanguage = "de-DE"; //GERMAN
                 langINcounter++;
             } else if (langINcounter == 4) {
                 inputLangIcon = R.drawable.input_hi_on; //make this hindi icon
                 inputLanguage = "hi-IN"; //HINDI
                 langINcounter++;
-            }else if (langINcounter == 5) {
+            } else if (langINcounter == 5) {
                 inputLangIcon = R.drawable.input_jp_on; //make this japanese icon
                 inputLanguage = "ja-JP"; //JAPANESE
                 langINcounter++;
-            }
-            else if (langINcounter == 6) {
+            } else if (langINcounter == 6) {
                 inputLangIcon = R.drawable.input_kr_on; //make this korean icon
                 inputLanguage = "ko-KR"; //KOREAN
                 langINcounter++;
-            }
-            else if (langINcounter == 7) {
+            } else if (langINcounter == 7) {
                 inputLangIcon = R.drawable.input_pt_on; //make this portugese icon
                 inputLanguage = "pt-PT"; //PORTUGESE
                 langINcounter++;
-            }
-            else if (langINcounter == 8) {
+            } else if (langINcounter == 8) {
                 inputLangIcon = R.drawable.input_cn_on; //make this chinese icon
                 inputLanguage = "zh-CN"; //Chinese (MANDARIN simplified)
                 langINcounter++;
-            }else {
+            } else {
                 inputLangIcon = R.drawable.input_en_on; //good
-                inputLanguage="en-US"; //ENGLISH
+                inputLanguage = "en-US"; //ENGLISH
                 langINcounter = 1; //toggles back to french
             }
             langINicon.setImageResource(inputLangIcon);
@@ -204,82 +201,42 @@ public class MainActivity extends AppCompatActivity {
         if (ASLisOn) {
             if (langOUTcounter == 1) {
                 outputLangIcon = R.drawable.output_fr_on; //make this french icon
-                outputLanguage="fr-CA"; //CANADIAN FRENCH
+                outputLanguage = "fr-CA"; //CANADIAN FRENCH
                 langOUTcounter++;
             } else if (langOUTcounter == 2) {
                 outputLangIcon = R.drawable.output_es_on; //make this spanish icon
-                outputLanguage="es-ES"; //SPANISH
+                outputLanguage = "es-ES"; //SPANISH
                 langOUTcounter++;
             } else if (langOUTcounter == 3) {
                 outputLangIcon = R.drawable.output_de_on; //make this German icon
-                outputLanguage="de-DE"; //GERMAN
+                outputLanguage = "de-DE"; //GERMAN
                 langOUTcounter++;
             } else if (langOUTcounter == 4) {
                 outputLangIcon = R.drawable.output_hi_on; //make this hindi icon
-                outputLanguage="hi-IN"; //HINDI
+                outputLanguage = "hi-IN"; //HINDI
                 langOUTcounter++;
             } else if (langOUTcounter == 5) {
                 outputLangIcon = R.drawable.output_jp_on; //make this japanese icon
-                outputLanguage="ja-JP"; //JAPANESE
+                outputLanguage = "ja-JP"; //JAPANESE
                 langOUTcounter++;
             } else if (langOUTcounter == 6) {
                 outputLangIcon = R.drawable.output_kr_on; //make this korean icon
-                outputLanguage="ko-KR"; //KOREAN
+                outputLanguage = "ko-KR"; //KOREAN
                 langOUTcounter++;
             } else if (langOUTcounter == 7) {
                 outputLangIcon = R.drawable.output_pt_on; //make this portuguese icon
-                outputLanguage="pt-PT"; //PORTUGESE
+                outputLanguage = "pt-PT"; //PORTUGESE
                 langOUTcounter++;
             } else if (langOUTcounter == 8) {
                 outputLangIcon = R.drawable.output_cn_on; //make this mandarin icon
-                outputLanguage="zh-CN"; //Chinese (MANDARIN simplified)
+                outputLanguage = "zh-CN"; //Chinese (MANDARIN simplified)
                 langOUTcounter++;
             } else {
                 outputLangIcon = R.drawable.output_en_on; //good
-                outputLanguage="en-US"; //ENGLISH
+                outputLanguage = "en-US"; //ENGLISH
                 langOUTcounter = 1; //toggles back to french
             }
             langOUTicon.setImageResource(outputLangIcon);
         }
     }
-
-
-//    public void onRadioButtonClicked(View view) {
-//        // Is the button now checked?
-//        boolean checked = ((RadioButton) view).isChecked();
-//
-//        // Check which radio button was clicked
-//        switch(view.getId()) {
-//            case R.id.radio_pirates:
-//                if (checked)
-//                    stringResultASL ="ON";
-//                    break;
-//            case R.id.radio_ninjas:
-//                if (checked)
-//                    stringResultASL ="OFF";
-//                    break;
-//        }
-//    }
-
-//    public void onRadioButtonClickedCC(View view) {
-//        // Is the button now checked?
-//        boolean checked = ((RadioButton) view).isChecked();
-//
-//        // Check which radio button was clicked
-//        switch(view.getId()) {
-//            case R.id.radio_piratesCC:
-//                if (checked)
-//                    stringResultCC ="ON";
-//                    break;
-//            case R.id.radio_ninjasCC:
-//                if (checked)
-//                    stringResultCC ="OFF";
-//                    break;
-//        }
-//    }
-
-//    public void onLogoClicked(View view) {
-//        Intent intent = new Intent(this, TranslatarActivity.class);
-//        startActivity(intent);
-//    }
 }

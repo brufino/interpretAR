@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using OpenCVForUnity.CoreModule;
 using OpenCVForUnity.ObjdetectModule;
 using OpenCVForUnity.ImgprocModule;
@@ -11,6 +12,7 @@ using OpenCVForUnity.UnityUtils;
 using OpenCVForUnity.UnityUtils.Helper;
 using OpenCVFaceTracker;
 using KKSpeech;
+
 
 
 
@@ -25,11 +27,12 @@ public class TextureFaceTrackerExample : MonoBehaviour
     ////// </summary>
 
     public Text resultText;
-    public Image target;
     private Animator anim;
-    protected string word = "right";
     public string[] Keywords_array;
     private int facecount = 0;
+    private int facerec = 0;
+    private int wordInputTimer = 0;
+
 
 
     /// <summary>
@@ -85,6 +88,19 @@ public class TextureFaceTrackerExample : MonoBehaviour
     #if UNITY_WEBGL && !UNITY_EDITOR
     IEnumerator getFilePath_Coroutine;
     #endif
+
+
+    // left and right hand Hashtable for each word 
+    Hashtable ASL_vocab_right = CreateASLvocabRight();
+    Hashtable ASL_vocab_left = CreateASLvocabLeft();
+    Queue<string> sentence_queue = new Queue<string>(); 
+    Thread t = new Thread(()=>sleep());
+
+    public static void sleep() 
+    {
+        Thread.Sleep(500); 
+    }
+
 
     // Use this for initialization
     void Start ()
@@ -142,8 +158,6 @@ public class TextureFaceTrackerExample : MonoBehaviour
 
     public void Run ()
     {
-        //anim = GetComponent<Animator>();
-
         //initialize FaceTracker
         faceTracker = new FaceTracker (tracker_model_json_filepath);
         //initialize FaceTrackerParams
@@ -191,10 +205,18 @@ public class TextureFaceTrackerExample : MonoBehaviour
     /// </summary>
     public void OnFinalResult(string result)
     {
-        resultText.text = result;
-        //word = result;
-        //ActionPerformer(result);
+        wordInputTimer=0;
+        sentence_queue.Enqueue(result); 
+
+        if (!t.IsAlive)
+        {
+            String sentence = sentence_queue.Dequeue();
+            t = new Thread(()=>ActionPerformer(sentence));
+            t.Start();
+        }
+
         //resultText.text = "I am running final Results";
+
         if (SpeechRecognizer.IsRecording())
         {
             SpeechRecognizer.StopIfRecording();
@@ -210,8 +232,7 @@ public class TextureFaceTrackerExample : MonoBehaviour
     public void OnPartialResult(string result)
     {
         //resultText.text = "I am running Partial Results";
-        resultText.text = result;
-        ActionPerformer(result);
+//        ActionPerformer(result);
     }
 
     public void OnAvailabilityChange(bool available)
@@ -247,6 +268,7 @@ public class TextureFaceTrackerExample : MonoBehaviour
         //resultText.text = "Exit app and try again";
         if (SpeechRecognizer.IsRecording())
         {
+            // resultText.text="end of speech turning off recording";
             SpeechRecognizer.StopIfRecording();
             //resultText.text = "I stopped recording";
         }
@@ -257,6 +279,25 @@ public class TextureFaceTrackerExample : MonoBehaviour
         }
     }
 
+    public void sentence_queue_handler() 
+    {
+        // while there are setences to be displayed
+        while (sentence_queue.Count != 0)
+        {
+            // if thread ASL display thread isn't running
+            if (!t.IsAlive)
+            {
+                // go into sentence queue 
+                String sentence = sentence_queue.Dequeue();
+                t = new Thread(()=>ActionPerformer(sentence));
+                t.Start();
+            }
+        }
+        resultText.text = "no speech input, close app and try again";
+
+        // queue is empty, no more speech, display final message
+    }
+
     //if something goes wrong with button or speech to text
     public void OnError(string error)
     {
@@ -265,7 +306,9 @@ public class TextureFaceTrackerExample : MonoBehaviour
         {
             StartCoroutine(Example());
             SpeechRecognizer.StartRecording(true);
-            resultText.text = "Say something :-)";
+            
+            Thread t2 = new Thread(()=>sentence_queue_handler());
+            t2.Start();
         }
         else if (error.Contains("3"))
         {
@@ -279,7 +322,7 @@ public class TextureFaceTrackerExample : MonoBehaviour
             resultText.text = "Server / Network errors... Press back and try again! \n [" + error + "]";
             SpeechRecognizer.StartRecording(true);
         }
-		else if (error.Contains("8") || error.Contains("7"))
+        else if (error.Contains("8") || error.Contains("7"))
         {
             StartCoroutine(Example());
             SpeechRecognizer.StartRecording(true);
@@ -300,60 +343,78 @@ public class TextureFaceTrackerExample : MonoBehaviour
 
     void ActionPerformer(string command)
     {
+        // splits the setence spoken by user into single words as array elements
+        string[] word_array = command.Split(' ');
 
-        if (command.Contains("apple"))
+        // checks if each word of the sentence is in the ASL vocab list 
+        // if so, runs the ASL sign in the program 
+        for (int i=0; i < word_array.Length; i++) 
         {
-            GameObject.FindGameObjectWithTag("(twohand)").GetComponent<Animator>().CrossFade("apple", -1);
-        }
+            string word = word_array[i];
 
-        if (command.Contains("boy"))
-        {
-            GameObject.FindGameObjectWithTag("(twohand)").GetComponent<Animator>().CrossFade("boy", -1);
-        }
-   
-        if (command.Contains("cat"))
-        {
-            GameObject.FindGameObjectWithTag("(twohand)").GetComponent<Animator>().CrossFade("cat", -1);
-        }
-
-        if (command.Contains("dog"))
-        {
-            GameObject.FindGameObjectWithTag("(twohand)").GetComponent<Animator>().CrossFade("dog", -1);
-        }
-
-        if (command.Contains("eat"))
-        {
-            GameObject.FindGameObjectWithTag("(twohand)").GetComponent<Animator>().CrossFade("eat", -1);
-        }
-
-        if (command.Contains("how"))
-        {
-            GameObject.FindGameObjectWithTag("(twohand)").GetComponent<Animator>().CrossFade("how", -1);
-        }
-
-        if (command.Contains("okay"))
-        {
-            GameObject.FindGameObjectWithTag("(twohand)").GetComponent<Animator>().CrossFade("ok", -1);
-        }
-
-        if (command.Contains("what"))
-        {
-            GameObject.FindGameObjectWithTag("(twohand)").GetComponent<Animator>().CrossFade("what", -1);
-        }
-
-        if (command.Contains("when"))
-        {
-            GameObject.FindGameObjectWithTag("(twohand)").GetComponent<Animator>().CrossFade("when", -1);
+            if (ASL_vocab_right.ContainsKey(word.ToLower())||ASL_vocab_left.ContainsKey(word.ToLower()))
+            {
+                if (resultText.text == "no speech input, close app and try again")
+                {    
+                    resultText.text = word.ToLower(); 
+                    GameObject.FindGameObjectWithTag("right hand").GetComponent<Animator>().Play(String.Concat(word.ToLower(),"_right"));
+                    if (ASL_vocab_left.ContainsKey(word))
+                    {
+                        GameObject.FindGameObjectWithTag("left hand").GetComponent<Animator>().Play(String.Concat(word.ToLower(),"_left"));
+                    }
+                    Thread.Sleep(1500);
+                    resultText.text = "no speech input, close app and try again";                
+                }
+                else
+                {
+                    resultText.text = word.ToLower(); 
+                    GameObject.FindGameObjectWithTag("right hand").GetComponent<Animator>().Play(String.Concat(word.ToLower(),"_right"));
+                    if (ASL_vocab_left.ContainsKey(word))
+                    {
+                        GameObject.FindGameObjectWithTag("left hand").GetComponent<Animator>().Play(String.Concat(word.ToLower(),"_left"));
+                    }
+                    Thread.Sleep(1500);
+                }
+            }
+            else
+            {
+                resultText.text = String.Concat("word not in vocab: ",word);
+                Thread.Sleep(500);
+            }
         }
 
-        if (command.Contains("who"))
-        {
-            GameObject.FindGameObjectWithTag("(twohand)").GetComponent<Animator>().CrossFade("who", -1);
-        }
-        //resultText.text = "Say something :-)";
-        //SpeechRecognizer.StartRecording(true);
     }
 
+    static Hashtable CreateASLvocabRight() 
+    {
+        Hashtable ASL_vocab_right = new Hashtable(); 
+
+        // list of all ASL words available 
+        string[] vocab_list_right = {"angry", "apple", "arvin", "baby", "bad", "bird", "blue", "brandon", "before", "boy", "brother", "brown", "bug", "cat", "cents", "cereal", "cheese", "church", "clean", "coat", "cold", "come", "cost", "cow", "cry", "cup", "dad", "day", "divorce", "dog", "dollars", "drink", "eat", "egg", "excuse", "finish", "fork", "full", "girl", "go", "gold", "grandma", "grandpa", "green", "hello", "help", "home", "horse", "hot", "how", "hungry", "hurt", "in", "justin", "large", "like", "little", "love", "marriage", "milk", "miles", "mom", "month", "more", "my", "name", "night", "okay", "orange", "out", "pants", "pig", "pizza", "please", "red", "sad", "school", "separate", "sheep", "shirt", "shoes", "short", "silver", "single", "sister", "sleep", "socks", "tall", "teeth", "thanks", "today", "underwear", "water", "what", "when", "where", "who", "why", "will", "with", "work", "yellow"};
+        // 4populates the ASLvocab_right hash with keys and values 
+        for (int i=0; i < vocab_list_right.Length; i++)
+        {
+            string key = vocab_list_right[i]; 
+            ASL_vocab_right.Add(key, null);
+        } 
+    return ASL_vocab_right; 
+    }
+
+    static Hashtable CreateASLvocabLeft() 
+    {
+        Hashtable ASL_vocab_left = new Hashtable();
+
+        // list of all ASL words available 
+        string[] vocab_list_left = {"angry", "baby", "brother", "cheese", "church", "clean", "coat", "cold", "come", "cost", "cry", "cup", "day", "divorce", "dollars", "egg", "excuse", "finish", "fork", "full", "go", "help", "how", "hurt", "in", "large", "little", "love", "marriage", "month", "more", "name", "night", "out", "pants", "please", "sad", "school", "seperate", "sheep", "shoes", "sister", "socks", "tall", "today", "underwear", "what", "when", "with", "work"};
+
+        // populates the ASLvocab_left hash with keys and values 
+        for (int i=0; i < vocab_list_left.Length; i++)
+        {
+            string key = vocab_list_left[i]; 
+            ASL_vocab_left.Add(key, null);
+        } 
+    return ASL_vocab_left; 
+    }
 
     /// <summary>
     /// Raises the webcam texture to mat helper initialized event.
@@ -456,7 +517,7 @@ public class TextureFaceTrackerExample : MonoBehaviour
 //                                                                                      Debug.Log ("remove " + i);
                                     }
                                     //uncomment below for rectangle around face
-                                    //Imgproc.rectangle (rgbaMat, new Point (trackRect.x, trackRect.y), new Point (trackRect.x + trackRect.width, trackRect.y + trackRect.height), new Scalar (0, 0, 255, 255), 2);
+                                    Imgproc.rectangle (rgbaMat, new Point (trackRect.x, trackRect.y), new Point (trackRect.x + trackRect.width, trackRect.y + trackRect.height), new Scalar (0, 0, 255, 255), 2);
                                 }
                             }
                         } else {
@@ -465,7 +526,7 @@ public class TextureFaceTrackerExample : MonoBehaviour
                         //draw face rect
                         for (int i = 0; i < rectsList.Count; i++) {
                             //uncomment below for rectangle around face
-                            //Imgproc.rectangle (rgbaMat, new Point (rectsList [i].x, rectsList [i].y), new Point (rectsList [i].x + rectsList [i].width, rectsList [i].y + rectsList [i].height), new Scalar (255, 0, 0, 255), 2);
+                            Imgproc.rectangle (rgbaMat, new Point (rectsList [i].x, rectsList [i].y), new Point (rectsList [i].x + rectsList [i].width, rectsList [i].y + rectsList [i].height), new Scalar (255, 0, 0, 255), 2);
                         }                                                    
                                                 
                     } else {
@@ -479,18 +540,30 @@ public class TextureFaceTrackerExample : MonoBehaviour
             //track face points.if face points <= 0, always return false.
             if (faceTracker.track(grayMat, faceTrackerParams))
             {
-                GameObject.Find("(twohand)").transform.localScale = new Vector3(0.078125f, 0.1041667f, 50);
-                facecount = 0;
+                //GameObject.FindGameObjectWithTag("left hand").transform.localScale = new Vector3(0.05f, 0.05f, 50);
+                //GameObject.FindGameObjectWithTag("right hand").transform.localScale = new Vector3(0.05f, 0.05f, 50);
+                //facecount = 0;
+                if(facerec > 5)
+                {
+                    GameObject.FindGameObjectWithTag("left hand").transform.localScale = new Vector3(0.2f, 0.2f, 50);
+                    GameObject.FindGameObjectWithTag("right hand").transform.localScale = new Vector3(0.2f, 0.2f, 50);
+                    facecount = 0;
+                }
+                else
+                {
+                    facerec++;
+                }
                 //uncomment below for rectangle around face
                 //faceTracker.draw(rgbaMat, new Scalar(255, 0, 0, 255), new Scalar(0, 255, 0, 255));
             }
             else
             {
                 //facecount prevents flickering of hand from poor face recognition
-                if (facecount > 15)
+                if (facecount > 30)
                 {
-                    GameObject.Find("(twohand)").transform.localScale = new Vector3(0, 0, 0); //make hands to zero scale until a face is recognized
-                    facecount++;
+                    facerec = 0;
+                    GameObject.FindGameObjectWithTag("left hand").transform.localScale = new Vector3(0f, 0f, 0);
+                    GameObject.FindGameObjectWithTag("right hand").transform.localScale = new Vector3(0f, 0f, 0);                    facecount++;
                 }
                 else
                 {
@@ -498,7 +571,7 @@ public class TextureFaceTrackerExample : MonoBehaviour
                 }
             }
 
-            Imgproc.putText (rgbaMat, "'Tap' or 'Space Key' to Reset", new Point (5, rgbaMat.rows () - 5), Imgproc.FONT_HERSHEY_SIMPLEX, 0.8, new Scalar (255, 255, 255, 255), 2, Imgproc.LINE_AA, false);                                        
+            //Imgproc.putText (rgbaMat, "'Tap' or 'Space Key' to Reset", new Point (5, rgbaMat.rows () - 5), Imgproc.FONT_HERSHEY_SIMPLEX, 0.8, new Scalar (255, 255, 255, 255), 2, Imgproc.LINE_AA, false);                                        
                                         
 //                Imgproc.putText (rgbaMat, "W:" + rgbaMat.width () + " H:" + rgbaMat.height () + " SO:" + Screen.orientation, new Point (5, rgbaMat.rows () - 10), Imgproc.FONT_HERSHEY_SIMPLEX, 1.0, new Scalar (255, 255, 255, 255), 2, Imgproc.LINE_AA, false);
 
@@ -519,6 +592,28 @@ public class TextureFaceTrackerExample : MonoBehaviour
             }
             Application.Quit();
             //Application.LoadLevel ("MainActivity.class");
+        }
+
+        if (wordInputTimer>5)
+        {
+            if (!t.IsAlive && sentence_queue.Count != 0)
+            {
+                String sentence = sentence_queue.Dequeue();
+                t = new Thread(()=>ActionPerformer(sentence));
+                t.Start();
+            }
+        }
+        wordInputTimer++;
+        if (!t.IsAlive && sentence_queue.Count == 0 && wordInputTimer>240)
+        {
+            resultText.text="no speech input: close app and try again :)";
+            if (SpeechRecognizer.IsRecording())
+            {
+                SpeechRecognizer.StopIfRecording();
+                //resultText.text = "I stopped recording";
+            }
+            Thread.Sleep(500);
+            Application.Quit();
         }
     }
 
